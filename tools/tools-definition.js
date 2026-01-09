@@ -65,83 +65,90 @@ const GHS_SCORES = [
   {
     "category": "body",
     "values": [
-      { "label": "Good to excellent overall physical health", "code": 1 },
-      { "label": "Challenging with some impact on daily living", "code": 2 },
-      { "label": "Poor with significant impact on daily living", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   },
   {
     "category": "interactivity",
     "values": [
-      { "label": "Cooperative", "code": 1 },
-      { "label": "Moderate", "code": 2 },
-      { "label": "Difficult", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   },
   {
     "category": "mind",
     "values": [
-      { "label": "Good to excellent", "code": 1 },
-      { "label": "Challenging with some impact on daily living", "code": 2 },
-      { "label": "Poor with significant impact on daily living", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   },
   {
     "category": "motivation",
     "values": [
-      { "label": "Good to excellent self-motivation", "code": 1 },
-      { "label": "Limited self-motivation", "code": 2 },
-      { "label": "Complete lack of self-motivation", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   },
   {
     "category": "response",
     "values": [
-      { "label": "Good to excellent responsiveness", "code": 1 },
-      { "label": "Some resistance to stimulus and new ideas", "code": 2 },
-      { "label": "Significant resistance to stimulus", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   },
   {
     "category": "social",
     "values": [
-      { "label": "Low - stable and supportive social network", "code": 1 },
-      { "label": "Medium - some impact on health and treatment", "code": 2 },
-      { "label": "High - significant impact on health and treatment", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   },
   {
     "category": "substance",
     "values": [
-      { "label": "Low", "code": 1 },
-      { "label": "Medium", "code": 2 },
-      { "label": "High", "code": 3 }
+      { "label": "good", "code": 1 },
+      { "label": "challenging", "code": 2 },
+      { "label": "poor", "code": 3 }
     ]
   }
 ];
 
-// Placeholder for patient documents (AI will pick matching ones)
+// Patient documents available for search
 const PATIENT_DOCUMENTS = [
   {
-    "docId": "XRAY_001",
-    "title": "Lumbar Spine X-Ray",
-    "url": "https://example.blob.core.windows.net/xrays/lumbar_2024.pdf",
-    "type": "xray",
+    "docId": "MRI_LUMBAR_001",
+    "title": "Lumbar MRI Photo",
+    "url": "https://staidatafocus.blob.core.windows.net/scans-reports-scrum/3103.png",
+    "type": "mri",
     "date": "2024-12-10"
   },
   {
-    "docId": "UDS_001",
-    "title": "Urine Drug Screen Report",
-    "url": "https://example.blob.core.windows.net/labs/uds_2024.pdf",
-    "type": "lab_report",
+    "docId": "MRI_CERVICAL_001",
+    "title": "MRI - Cervical Spine",
+    "url": "https://staidatafocus.blob.core.windows.net/scans-reports-scrum/3093.jpg",
+    "type": "mri",
     "date": "2024-12-08"
   },
   {
-    "docId": "LAB_001",
-    "title": "Blood Work Results",
-    "url": "https://example.blob.core.windows.net/labs/bloodwork_2024.pdf",
-    "type": "lab_report",
+    "docId": "CT_LUMBAR_001",
+    "title": "CT Scan of Lumbar Spine",
+    "url": "https://staidatafocus.blob.core.windows.net/scans-reports-scrum/2576.png",
+    "type": "ct_scan",
     "date": "2024-12-05"
+  },
+  {
+    "docId": "XRAY_ANKLE_001",
+    "title": "X-Ray Ankle",
+    "url": "https://staidatafocus.blob.core.windows.net/scans-reports-scrum/3708.jpeg",
+    "type": "xray",
+    "date": "2024-12-03"
   }
 ];
 
@@ -218,34 +225,29 @@ const tools = [
   },
   {
     type: "function",
-    // tools-definition.js
-    name: "ai_patient_document_search",
-    description: "Find and retrieve a patient document. Match the request to available documents by type (xray, lab_report) and content.",
+    name: "open_imaging_results",
+    description: "Open patient imaging results by date. Parse dates from natural language like 'August 2025', 'June 22nd', 'August 17th 2025', etc.",
     parameters: {
       type: "object",
       properties: {
-        provider_id: { 
+        provider_id: {
           type: "number",
-          description: "Provider UserNum making the search"
+          description: "Provider UserNum making the request"
         },
         provider_name: {
           type: "string",
           description: "Provider name"
         },
-        doc_id: {
+        order_date: {
           type: "string",
-          description: "Document ID from the available documents"
+          description: "Order date in YYYY-MM-DD format parsed from user's natural language input"
         },
-        title: {
+        spoken_date: {
           type: "string",
-          description: "Document title"
-        },
-        url: {
-          type: "string",
-          description: "Document URL"
+          description: "The original date phrase spoken by the user (e.g., 'August 2025', 'June 22nd')"
         }
       },
-      required: ["provider_id", "provider_name", "doc_id", "title", "url"],
+      required: ["provider_id", "provider_name", "order_date", "spoken_date"],
       additionalProperties: false
     },
     strict: true
@@ -274,11 +276,11 @@ const tools = [
   {
   type: "function",
   name: "close_ui_element",
-  description: "Close an open UI element like a report, document, or modal when user says 'close the report', 'close xray', etc.",
+  description: "Close any open UI element (modal, image, report, document, xray, etc.) regardless of what the user says. Trigger on ANY close-related phrase: 'close it', 'close this', 'close the window', 'close xray', 'close', 'dismiss', etc.",
   parameters: {
     type: "object",
     properties: {
-      provider_id: { 
+      provider_id: {
         type: "number",
         description: "Provider UserNum"
       },
@@ -288,7 +290,7 @@ const tools = [
       },
       element_type: {
         type: "string",
-  description: "Type or name of the UI element to close (e.g., report, xray, lab result, modal, any open UI element)"
+        description: "What the user said to close (e.g., 'it', 'window', 'xray', 'report') - UI will close whatever is currently open"
       }
     },
     required: ["provider_id", "provider_name", "element_type"],

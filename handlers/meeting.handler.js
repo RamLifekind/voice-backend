@@ -9,15 +9,18 @@ class MeetingHandler {
   constructor(clientWs, allClients) {
     this.ws = clientWs;
     this.allClients = allClients;
-    
+
     // Speaker mapping system
     this.speakerMap = new Map();
     this.currentVerifiedSpeaker = null;
     this.lastEagleVerification = 0;
-    
+
     // Attendance tracking (session-based) - tracks UserNum
     this.verifiedUsers = new Set();
-    
+
+    // Provider imageURL mapping: userNum → imageURL
+    this.providerImageMap = new Map();
+
     // Services
     this.azureSpeech = null;
     this.eagleService = null;
@@ -71,17 +74,18 @@ class MeetingHandler {
     const userNum = displayInfo.userNum;
 
     console.log(`📝 [${speakerId} → ${displayName}${userNum ? ` (UserNum: ${userNum})` : ''}]: ${text}`);
-    
-    this.broadcast({
-      type: "transcript",
-      speaker: displayName,
-      guestId: speakerId,
-      userNum: userNum,
-      text: text,
-      isFinal: true,
-      isMapped: this.speakerMap.has(speakerId),
-      timestamp: Date.now()
-    });
+
+    // Frontend doesn't need transcript messages - already logged on backend
+    // this.broadcast({
+    //   type: "transcript",
+    //   speaker: displayName,
+    //   guestId: speakerId,
+    //   userNum: userNum,
+    //   text: text,
+    //   isFinal: true,
+    //   isMapped: this.speakerMap.has(speakerId),
+    //   timestamp: Date.now()
+    // });
     
     const speakerIdentifier = userNum || displayName;
     await this.openAIService.processIntent(
@@ -108,7 +112,10 @@ class MeetingHandler {
   
   const firstName = providerInfo.FirstName;
   const imageURL = providerInfo.ImageURL;
-  
+
+  // Store imageURL in the map for later function call lookups
+  this.providerImageMap.set(userNum, imageURL);
+
   this.currentVerifiedSpeaker = {
     userNum: userNum,
     firstName: firstName,
@@ -116,23 +123,23 @@ class MeetingHandler {
     verifiedAt: Date.now()
   };
   this.lastEagleVerification = Date.now();
-  
+
   console.log(`🗣️  Eagle verified: Provider ${userNum} → ${firstName} | Score: ${score.toFixed(2)}`);
   
   // 🔧 FIX: Only broadcast first verification
   const isFirstVerification = !this.verifiedUsers.has(userNum);
   
   if (isFirstVerification) {
-    // Broadcast verification to all clients
-    this.broadcast({
-      type: "speaker_verified",
-      userNum: userNum,
-      firstName: firstName,
-      imageURL: imageURL,
-      score: score.toFixed(2),
-      timestamp: Date.now()
-    });
-    
+    // Frontend doesn't need speaker_verified - only needs attendance_marked and tts_audio
+    // this.broadcast({
+    //   type: "speaker_verified",
+    //   userNum: userNum,
+    //   firstName: firstName,
+    //   imageURL: imageURL,
+    //   score: score.toFixed(2),
+    //   timestamp: Date.now()
+    // });
+
     console.log(`🎉 First-time verification for: ${firstName} (UserNum: ${userNum})`);
     this.verifiedUsers.add(userNum);
     
@@ -174,27 +181,32 @@ class MeetingHandler {
     if (result.type === "function_call") {
       console.log("🔧 Function detected:", result.name);
       console.log("📋 Arguments:", JSON.stringify(result.arguments, null, 2));
-      
+
+      // Get imageURL from map using providerId
+      const imageURL = this.providerImageMap.get(result.providerId) || result.providerImageURL;
+
       this.broadcast({
         type: "function_call",
         functionName: result.name,
         arguments: result.arguments,
         providerId: result.providerId,
         providerName: result.providerName,
-        providerImageURL: result.providerImageURL,
+        providerImageURL: imageURL,
         timestamp: Date.now(),
         success: true,
         message: `${result.name} detected - UI should update`
       });
-      
+
     } else if (result.type === "ai_response") {
-      this.broadcast({
-        type: "ai_response",
-        text: result.text,
-        providerId: result.providerId,
-        providerName: result.providerName,
-        timestamp: Date.now()
-      });
+      // Frontend doesn't need ai_response messages
+      // this.broadcast({
+      //   type: "ai_response",
+      //   text: result.text,
+      //   providerId: result.providerId,
+      //   providerName: result.providerName,
+      //   timestamp: Date.now()
+      // });
+      console.log(`💬 AI Response: ${result.text}`);
     }
   }
 
@@ -225,16 +237,17 @@ class MeetingHandler {
       this.speakerMap.set(guestId, existing);
     }
     
-    this.broadcast({
-      type: "speaker_mapping",
-      mappings: Array.from(this.speakerMap.entries()).map(([id, data]) => ({
-        guestId: id,
-        userNum: data.userNum,
-        firstName: data.firstName,
-        imageURL: data.imageURL,
-        lastVerified: data.lastVerified
-      }))
-    });
+    // Frontend doesn't need speaker_mapping messages
+    // this.broadcast({
+    //   type: "speaker_mapping",
+    //   mappings: Array.from(this.speakerMap.entries()).map(([id, data]) => ({
+    //     guestId: id,
+    //     userNum: data.userNum,
+    //     firstName: data.firstName,
+    //     imageURL: data.imageURL,
+    //     lastVerified: data.lastVerified
+    //   }))
+    // });
   }
 
   getDisplayInfo(guestId) {
