@@ -1,5 +1,6 @@
 const config = require("../config");
 const { tools } = require("../tools/tools-definition");
+const { getRAGService } = require("./guidelines-rag.service");
 
 class OpenAIService {
   constructor(onResult) {
@@ -138,6 +139,175 @@ Only extract function calls when the speaker clearly intends to perform an actio
 
   clearHistory() {
     this.conversationHistory = [];
+  }
+
+  /**
+   * Handle conversational queries using RAG
+   * @param {string} text - User's question/conversation
+   * @param {string} speakerId - Provider ID
+   * @param {string} displayName - Provider name
+   * @param {object} patientData - Optional patient context
+   * @param {array} transcriptHistory - Recent transcript history for context
+   * @returns {Promise<string>} AI response text
+   */
+  async handleConversation(text, speakerId, displayName, patientData = null, transcriptHistory = []) {
+    if (!config.AZURE_OPENAI_ENDPOINT || !config.AZURE_OPENAI_KEY) {
+      console.warn("⚠️  OpenAI not configured");
+      return "Sorry, AI service is not configured.";
+    }
+
+    try {
+      console.log(`[AI] Processing conversation query: "${text}"`);
+      console.log(`[AI] Patient data available: ${patientData ? 'Yes' : 'No'}`);
+      console.log(`[AI] Transcript history: ${transcriptHistory.length} items`);
+
+      // Get relevant guidelines from RAG
+      const ragService = getRAGService();
+      const relevantContext = await ragService.getRelevantContext(text, 3);
+
+      // Build conversation system prompt with RAG context
+      const systemPrompt = this.getConversationPrompt(speakerId, displayName, relevantContext, patientData);
+
+      // Build conversation messages including history for context
+      // This helps when user stutters or continues a question
+      const messages = [
+        {
+          role: "system",
+          content: systemPrompt,
+        }
+      ];
+
+      // Add transcript history as context (excluding current message)
+      if (transcriptHistory.length > 1) {
+        const historyContext = transcriptHistory
+          .slice(0, -1) // Exclude current message (it's the last one)
+          .map(t => `${t.speaker}: ${t.text}`)
+          .join('\n');
+
+        messages.push({
+          role: "user",
+          content: `[Previous conversation context - use this to understand the full question if the current message seems incomplete]\n${historyContext}`
+        });
+
+        messages.push({
+          role: "assistant",
+          content: "I understand the context. Please continue with your question."
+        });
+      }
+
+      // Add the current question
+      messages.push({
+        role: "user",
+        content: text,
+      });
+
+      console.log(`[AI] Sending request to OpenAI with ${messages.length} messages...`);
+      const url = `${config.AZURE_OPENAI_ENDPOINT}/openai/responses?api-version=2025-04-01-preview`;
+
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "api-key": config.AZURE_OPENAI_KEY,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          model: config.MODEL_NAME,
+          input: messages,
+          // No tools for conversation mode - just natural response
+        }),
+      });
+
+      if (!response.ok) {
+        const errText = await response.text();
+        console.error("❌ OpenAI Conversation Error:", response.status, errText);
+        return "Sorry, I encountered an error processing your question.";
+      }
+
+      const data = await response.json();
+      console.log(`[AI] Received response from OpenAI`);
+
+      // Extract text response
+      if (Array.isArray(data.output)) {
+        const msgItem = data.output.find((o) => o.type === "message");
+        const textOut = msgItem?.content?.[0]?.text || "I'm not sure how to answer that.";
+        console.log(`[AI] Extracted response text: "${textOut}"`);
+        return textOut;
+      }
+
+      console.log(`[AI] No valid response in output`);
+      return "I'm not sure how to answer that.";
+    } catch (error) {
+      console.error("❌ Conversation Error:", error.message);
+      return "Sorry, I encountered an error.";
+    }
+  }
+
+  /**
+   * Generate system prompt for conversational mode with RAG context
+   */
+  getConversationPrompt(speakerId, displayName, ragContext, patientData) {
+    let prompt = `You are a medical assistant participating in a healthcare team discussion.
+
+Speaker: ${displayName} (ID: ${speakerId})
+
+${ragContext}
+
+Instructions:
+- Answer questions based on the UTC Standards provided above
+- Be concise and professional
+- If asked about treatment, refer to relevant standards
+- If patient context is provided, consider it in your response
+- Keep responses under 3 sentences for voice readability
+`;
+
+    if (patientData) {
+      prompt += `\n## Patient Context\n`;
+      prompt += `Name: ${patientData.fullName || `${patientData.firstName} ${patientData.lastName}`}\n`;
+      prompt += `Patient ID: ${patientData.id}\n`;
+      if (patientData.diagnosis) prompt += `Diagnosis: ${patientData.diagnosis}\n`;
+
+      // Include case presentation details
+      if (patientData.casePresentation) {
+        const cp = patientData.casePresentation;
+        if (cp.Prescriptions) prompt += `Prescriptions: ${cp.Prescriptions}\n`;
+        if (cp.Treatments) prompt += `Treatments: ${cp.Treatments}\n`;
+        if (cp.Labs) prompt += `Labs: ${cp.Labs}\n`;
+        if (cp.Imaging) prompt += `Imaging: ${cp.Imaging}\n`;
+        if (cp.Vitals) prompt += `Vitals: ${cp.Vitals}\n`;
+      }
+
+      // Include health scores
+      if (patientData.healthScores && patientData.healthScores.length > 0) {
+        prompt += `\nGlobal Health Scores:\n`;
+        patientData.healthScores.forEach(score => {
+          const scoreLabel = score.score === 1 ? 'Good' : score.score === 2 ? 'Challenging' : 'Poor';
+          prompt += `- ${score.label}: ${scoreLabel} (${score.score})\n`;
+        });
+      }
+
+      // Include care actions
+      if (patientData.careActions && patientData.careActions.length > 0) {
+        prompt += `\nCare Actions:\n`;
+        patientData.careActions.forEach(action => {
+          prompt += `- ${action.Discipline}: ${action.Service} (${action.CPTCode})\n`;
+        });
+      }
+
+      // Include imaging/reports with URLs
+      if (patientData.reports && patientData.reports.length > 0) {
+        prompt += `\n## Imaging & Reports:\n`;
+        patientData.reports.forEach(report => {
+          prompt += `- ${report.OrderDate}: ${report.OrderName}\n`;
+          if (report.ImageUrl) {
+            prompt += `  Image available at: ${report.ImageUrl}\n`;
+          }
+        });
+      }
+
+      prompt += `\nWhen answering questions about the patient, reference specific data points above.\n`;
+    }
+
+    return prompt;
   }
 }
 

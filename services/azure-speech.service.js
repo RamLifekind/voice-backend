@@ -33,14 +33,16 @@ class AzureSpeechService {
         // Handle transcription events
         this.transcriber.transcribed = (s, e) => {
           if (!e.result || !e.result.text) return;
-          
+
           const transcriptData = {
             speakerId: e.result.speakerId || "Guest-1",
             text: e.result.text,
             offset: e.result.offset,
             duration: e.result.duration
           };
-          
+
+          console.log(`🎤 [Azure STT] ${transcriptData.speakerId}: "${transcriptData.text}"`);
+
           if (this.onTranscript) {
             this.onTranscript(transcriptData);
           }
