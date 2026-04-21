@@ -30,21 +30,6 @@ class AuthorizationService {
   }
 
   /**
-   * Set provider role (runtime update)
-   * @param {number} userNum
-   * @param {string} roleId
-   */
-  setProviderRole(userNum, roleId) {
-    if (ROLES[roleId]) {
-      PROVIDER_ROLES.set(userNum, roleId);
-      console.log(`✅ Provider ${userNum} role set to ${roleId}`);
-      return true;
-    }
-    console.error(`❌ Invalid role: ${roleId}`);
-    return false;
-  }
-
-  /**
    * Check if provider has permission for resource+action
    * @param {number} userNum
    * @param {string} resource - From RESOURCES
@@ -213,30 +198,6 @@ class AuthorizationService {
     }
   }
 
-  /**
-   * Get all roles for admin display
-   */
-  getAllRoles() {
-    return Object.values(ROLES).map(role => ({
-      id: role.id,
-      name: role.name,
-      allowedCategories: role.allowedCareCategories
-    }));
-  }
-
-  /**
-   * Get provider's current role info
-   */
-  getProviderRoleInfo(userNum) {
-    const role = this.getProviderRole(userNum);
-    return {
-      userNum,
-      roleId: role.id,
-      roleName: role.name,
-      allowedCategories: role.allowedCareCategories,
-      permissions: role.permissions
-    };
-  }
 }
 
 // Singleton instance

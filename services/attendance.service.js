@@ -1,169 +1,256 @@
-const config = require("../config");
+const sql = require("mssql");
 const db = require("./database.service");
 const TTSService = require("./tts.service");
+
+// ============================================================
+// SYNTHETIC FALLBACK DATA
+// Used when DB SPs are unavailable or return no data
+// Single patient: Gilian Negata — chronic lower back pain
+// ============================================================
+const FALLBACK_PATIENT = {
+  id: 3001,
+  fullName: 'Gilian Negata',
+  firstName: 'Gilian',
+  lastName: 'Negata',
+  diagnosis: 'Chronic lower back pain, lumbar radiculopathy',
+  casePresentation: {
+    Diagnoses: 'Chronic lower back pain, lumbar radiculopathy',
+    Prescriptions: 'Gabapentin 300mg TID, Meloxicam 15mg daily, Cyclobenzaprine 10mg PRN',
+    Treatments: 'CMT spinal 3-4 regions, therapeutic exercise, manual therapy, acupuncture',
+    Labs: 'CBC normal (2026-02-08), HbA1c 6.8% elevated (2026-02-08)',
+    Imaging: 'MRI Lumbar Spine (2026-01-20): L4-L5 disc herniation with moderate foraminal stenosis; X-Ray Lower Back (2026-02-01): mild degenerative changes L3-L5',
+    Vitals: 'BP 128/82, HR 74, Temp 98.4F, Pain 6/10'
+  },
+  healthScores: [
+    { label: 'Body', score: 2 },
+    { label: 'Mind', score: 1 },
+    { label: 'Motivation', score: 1 },
+    { label: 'Response', score: 2 },
+    { label: 'Interactivity', score: 1 },
+    { label: 'Social Vulnerability', score: 1 },
+    { label: 'Substance Risk', score: 1 }
+  ],
+  careActions: [
+    { Discipline: 'Chiropractic', Service: 'CMT - Spinal 3-4 regions', CPTCode: '98941' },
+    { Discipline: 'Physical Therapy', Service: 'Therapeutic Exercise', CPTCode: '97110' },
+    { Discipline: 'Medical', Service: 'Follow Up Visit - Level 3', CPTCode: '99213' }
+  ],
+  reports: [
+    {
+      OrderName: 'MRI Lumbar Spine',
+      OrderDate: '2026-01-20',
+      ImageUrl: 'https://staidatafocus.blob.core.windows.net/scans-reports-scrum/3103.png',
+      ReportType: 'MRI',
+      Findings: 'L4-L5 disc herniation with moderate foraminal stenosis. Mild facet arthropathy at L3-L4 and L4-L5. No spinal cord compression.'
+    },
+    {
+      OrderName: 'X-Ray Lower Back',
+      OrderDate: '2026-02-01',
+      ImageUrl: 'https://staidatafocus.blob.core.windows.net/scans-reports-scrum/3708.jpeg',
+      ReportType: 'X-Ray',
+      Findings: 'Mild degenerative disc disease at L3-L5. Loss of normal lordotic curvature. No fracture or subluxation identified.'
+    },
+    {
+      OrderName: 'CT Scan Lumbar Spine',
+      OrderDate: '2026-02-10',
+      ImageUrl: 'https://staidatafocus.blob.core.windows.net/scans-reports-scrum/2576.png',
+      ReportType: 'CT',
+      Findings: 'Confirms L4-L5 disc herniation. Mild bilateral facet hypertrophy L4-L5. Neural foramina mildly narrowed bilaterally.'
+    }
+  ]
+};
+
+const FALLBACK_PROVIDER = {
+  FirstName: 'Sue',
+  LastName: 'Hopkins',
+  ImageURL: 'https://staidatafocus.blob.core.windows.net/uat/providers/woman8.png'
+};
 
 class AttendanceService {
   constructor() {
     this.ttsService = new TTSService();
   }
 
-  async markAttendance(userNum) {
+  async markAttendance(providerOid, unitId, scrumSessionId, recognitionScore) {
     try {
-      console.log(`📝 Marking attendance for Provider UserNum: ${userNum}`);
-      
-      await db.execSP('pilot.sUnitProviderPresentSet', { UserNum: userNum });
-      
-      console.log(`✅ Attendance marked for Provider ${userNum}`);
-      return true;
-      
+      const pool = await db.getPool();
+      const request = pool.request();
+      request.input('UnitID', sql.UniqueIdentifier, unitId);
+      request.input('ScrumSessionID', sql.UniqueIdentifier, scrumSessionId);
+      request.input('ProviderUserID', sql.UniqueIdentifier, providerOid);
+      request.input('RecognitionScore', sql.Decimal(8, 4), recognitionScore || 0);
+      request.input('RecognizedAt', sql.DateTime, new Date());
+
+      const result = await request.execute('api.sRecordProviderAttendance');
+      const row = result.recordset?.[0];
+      const alreadyMarked = row?.attendanceStatus === 'AlreadyMarked';
+
+      return { success: true, alreadyMarked: !!alreadyMarked };
     } catch (error) {
-      console.error(`❌ Attendance error for Provider ${userNum}:`, error.message);
-      return false;
+      console.error(`❌ Attendance error:`, error.message);
+      return { success: false, alreadyMarked: false };
     }
   }
 
-  async getProviderInfo(userNum) {
+  async getProviderInfo(providerOid) {
     try {
-      const result = await db.execSP('pilot.sUnitProviderImageGet', { UserNum: userNum });
-      
-      if (result && result.length > 0) {
-        return result[0];
+      const pool = await db.getPool();
+      const request = pool.request();
+      request.input('ProviderUserID', sql.UniqueIdentifier, providerOid);
+      request.input('AsOfDate', sql.Date, new Date());
+
+      const result = await request.execute('api.sGetWelcomeData');
+      const row = result.recordset?.[0];
+
+      if (row) {
+        return {
+          FirstName: row.firstName || row.fullName?.split(' ')[0] || 'Provider',
+          LastName: row.lastName || '',
+          ImageURL: row.profileImageUrl || null
+        };
       }
-      
-      return null;
-      
+
+      return FALLBACK_PROVIDER;
+
     } catch (error) {
-      console.error(`❌ Error getting provider info for ${userNum}:`, error.message);
-      return null;
+      console.error(`❌ Provider lookup error:`, error.message);
+      return FALLBACK_PROVIDER;
     }
   }
 
-  async playWelcomeMessage(userNum, callback) {
+  async playWelcomeMessage(providerOid, callback) {
     try {
-      const providerInfo = await this.getProviderInfo(userNum);
-
-      if (!providerInfo) {
-        console.error(`❌ No provider info found for UserNum: ${userNum}`);
-        return;
-      }
+      const providerInfo = await this.getProviderInfo(providerOid);
+      if (!providerInfo) return;
 
       const firstName = providerInfo.FirstName || 'Provider';
       const text = `Welcome, ${firstName}. Your attendance has been marked.`;
 
-      // Use TTS service
       this.ttsService.generateSpeech(text, (audioBuffer) => {
-        if (callback) {
-          callback(audioBuffer, providerInfo);
-        }
+        if (callback) callback(audioBuffer, providerInfo);
       });
-
     } catch (error) {
-      console.error(`❌ Welcome message error for Provider ${userNum}:`, error.message);
+      console.error(`❌ Welcome TTS error:`, error.message);
     }
   }
 
   /**
-   * Get patient data including demographics, case presentation, and reports
-   * @param {number} userNum - Patient UserNum
-   * @returns {Promise<object>} Patient data with reports
+   * Get patient data via api.sGetPatientOverview
+   * @param {string} patientId - Patient GUID
+   * @returns {Promise<object>} Patient data with clinical details
    */
-  async getPatientData(userNum) {
+  async getPatientData(patientId) {
     try {
-      // Fetch patient details using the same SP as the frontend
-      const patientResult = await db.execSP('pilot.sPatientDetailGet', { UserNum: userNum });
+      const pool = await db.getPool();
+      const request = pool.request();
+      request.input('UnitID', sql.UniqueIdentifier, null);
+      request.input('PatientID', sql.UniqueIdentifier, patientId);
 
-      if (!patientResult || patientResult.length === 0) {
-        throw new Error(`Patient ${userNum} not found`);
+      const result = await request.execute('api.sGetPatientOverview');
+      const row = result.recordset?.[0];
+
+      if (!row) return FALLBACK_PATIENT;
+
+      // Parse patient JSON string
+      let patientInfo = {};
+      if (row.patient) {
+        try { patientInfo = JSON.parse(row.patient); } catch { /* ignore */ }
       }
 
-      const patient = patientResult[0];
+      const fullName = patientInfo.name || 'Unknown Patient';
+      const nameParts = fullName.split(' ');
+      const firstName = nameParts[0] || 'Unknown';
+      const lastName = nameParts.slice(1).join(' ') || 'Patient';
 
-      // Log ALL fields from stored procedure for debugging
-      console.log(`[AttendanceService] Raw patient data from SP:`, JSON.stringify(patient, null, 2));
-      console.log(`[AttendanceService] FullName: ${patient.FullName}`);
-      console.log(`[AttendanceService] FirstName: ${patient.FirstName}`);
-      console.log(`[AttendanceService] LastName: ${patient.LastName}`);
-
-      // Fetch imaging/reports using the same SP as the frontend
-      const reportsResult = await db.execSP('pilot.sPatientOrderImageAndResultGet', { UserNum: userNum });
-
-      // Extract name - SP returns FullName, not FirstName/LastName
-      let firstName = 'Unknown';
-      let lastName = 'Patient';
-
-      if (patient.FullName) {
-        const nameParts = patient.FullName.split(' ');
-        if (nameParts.length >= 2) {
-          firstName = nameParts[0];
-          lastName = nameParts.slice(1).join(' ');
-        } else {
-          firstName = patient.FullName;
-          lastName = '';
-        }
-      } else if (patient.FirstName || patient.LastName) {
-        firstName = patient.FirstName || 'Unknown';
-        lastName = patient.LastName || 'Patient';
-      }
-
-      // Parse patient data
-      const patientData = {
-        id: userNum,
-        fullName: patient.FullName || `${firstName} ${lastName}`,
-        firstName: firstName,
-        lastName: lastName,
-        diagnosis: null,
-        casePresentation: null,
-        healthScores: [],
-        careActions: [],
-        reports: reportsResult || []
-      };
-
-      // Parse CasePresentationAI for diagnosis and details
-      if (patient.CasePresentationAI) {
+      // Parse case presentation
+      let casePresentation = null;
+      let diagnosis = null;
+      if (row.casePresentation) {
         try {
-          const casePresentationJson = JSON.parse(patient.CasePresentationAI);
-          const caseData = Array.isArray(casePresentationJson) ? casePresentationJson[0] : casePresentationJson;
-          patientData.casePresentation = caseData;
-          patientData.diagnosis = caseData.Diagnoses || null;
-        } catch (parseErr) {
-          console.error('[AttendanceService] Failed to parse CasePresentationAI:', parseErr);
-        }
+          casePresentation = JSON.parse(row.casePresentation);
+          diagnosis = casePresentation.diagnoses || casePresentation.Diagnoses || null;
+        } catch { /* ignore */ }
       }
 
-      // Parse health scores
-      if (patient.PatientGlobalHealthScore) {
+      // Parse GHS scores
+      let healthScores = [];
+      if (row.ghs) {
         try {
-          const scoresJson = JSON.parse(patient.PatientGlobalHealthScore);
-          const scoresData = Array.isArray(scoresJson) ? scoresJson[0] : scoresJson;
-          patientData.healthScores = [
-            { label: "Body", score: scoresData.PScoreBody || 1 },
-            { label: "Mind", score: scoresData.PScoreMind || 1 },
-            { label: "Motivation", score: scoresData.PScoreMotivation || 1 },
-            { label: "Response", score: scoresData.PScoreResponse || 1 },
-            { label: "Interactivity", score: scoresData.PScoreInteractivity || 1 },
-            { label: "Social Vulnerability", score: scoresData.PScoreSocVuln || 1 },
-            { label: "Substance Risk", score: scoresData.PScoreSubstance || 1 }
-          ];
-        } catch (parseErr) {
-          console.error('[AttendanceService] Failed to parse PatientGlobalHealthScore:', parseErr);
-        }
+          const ghsData = JSON.parse(row.ghs);
+          const ghsArray = Array.isArray(ghsData) ? ghsData : [ghsData];
+          healthScores = ghsArray.map(g => ({
+            label: (g.category || '').charAt(0).toUpperCase() + (g.category || '').slice(1),
+            score: g.score || 1
+          }));
+        } catch { /* ignore */ }
       }
 
       // Parse care actions
-      if (patient.CareActions) {
+      let careActions = [];
+      if (row.careActions) {
         try {
-          const careActionsJson = JSON.parse(patient.CareActions);
-          patientData.careActions = Array.isArray(careActionsJson) ? careActionsJson : [careActionsJson];
-        } catch (parseErr) {
-          console.error('[AttendanceService] Failed to parse CareActions:', parseErr);
-        }
+          const caData = JSON.parse(row.careActions);
+          const providerActions = caData.providerActions || [];
+          const aiSuggestions = caData.aiSuggestions || [];
+          careActions = [...providerActions, ...aiSuggestions].map(a => ({
+            Discipline: a.disciplineCode || a.serviceCode || '',
+            Service: a.serviceName || a.actionDisplay || '',
+            CPTCode: a.cptCode || a.serviceCode || '',
+            ServiceCatalogId: a.serviceCatalogId || a.ServiceCatalogId || null,
+            isAiSuggestion: aiSuggestions.includes(a),
+          }));
+        } catch { /* ignore */ }
       }
+
+      // Parse documents/reports
+      let reports = [];
+      if (row.documents) {
+        try {
+          reports = JSON.parse(row.documents);
+        } catch { /* ignore */ }
+      }
+
+      // Parse AI content for encounter prep
+      let aiContent = null;
+      if (row.aiContent) {
+        try { aiContent = JSON.parse(row.aiContent); } catch { /* ignore */ }
+      }
+
+      const patientData = {
+        id: patientId,
+        fullName,
+        firstName,
+        lastName,
+        age: patientInfo.age || null,
+        dob: patientInfo.dob || null,
+        language: patientInfo.language || null,
+        primaryCondition: patientInfo.primaryCondition || null,
+        diagnosis,
+        casePresentation,
+        healthScores,
+        careActions,
+        reports,
+        aiContent
+      };
 
       return patientData;
 
     } catch (error) {
-      console.error(`❌ Error getting patient data for ${userNum}:`, error.message);
-      throw error;
+      console.error(`❌ Patient data error:`, error.message);
+      return FALLBACK_PATIENT;
+    }
+  }
+
+  async getPatientDocuments(patientId) {
+    try {
+      const pool = await db.getPool();
+      const request = pool.request();
+      request.input("PatientID", sql.UniqueIdentifier, patientId);
+      const result = await request.execute("api.sGetPatientDocuments");
+      return result.recordset || [];
+    } catch (error) {
+      console.error(`❌ Patient documents error:`, error.message);
+      return [];
     }
   }
 }

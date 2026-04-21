@@ -59,18 +59,6 @@ async function execSP(spName, params = {}) {
   return result.recordset; // Return recordset for easy use
 }
 
-async function execQuery(query, params = {}) {
-  const db = await getPool();
-  const request = db.request();
-  
-  Object.entries(params).forEach(([k, v]) => {
-    request.input(k, v);
-  });
-  
-  const result = await request.query(query);
-  return result.recordset;
-}
-
 async function closePool() {
   if (pool) {
     await pool.close();
@@ -89,4 +77,4 @@ process.on('SIGTERM', async () => {
   process.exit(0);
 });
 
-module.exports = { execSP, execQuery, getPool, closePool };
+module.exports = { execSP, getPool, closePool };

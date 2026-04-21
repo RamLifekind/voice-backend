@@ -15,19 +15,6 @@ const client = jwksClient({
   jwksRequestsPerMinute: 10
 });
 
-async function getSigningKey(kid) {
-  return new Promise((resolve, reject) => {
-    client.getSigningKey(kid, (err, key) => {
-      if (err) {
-        console.error('❌ JWKS key fetch error:', err.message);
-        reject(err);
-        return;
-      }
-      resolve(key.getPublicKey());
-    });
-  });
-}
-
 function getKeyCallback(header, callback) {
   client.getSigningKey(header.kid, (err, key) => {
     if (err) { callback(err, null); return; }
@@ -42,4 +29,4 @@ function refreshCache() {
   });
 }
 
-module.exports = { getSigningKey, getKeyCallback, refreshCache, client };
+module.exports = { getKeyCallback, refreshCache, client };

@@ -1,42 +1,95 @@
-const axios = require("axios");
-const FormData = require("form-data");
+const WebSocket = require("ws");
+const sql = require("mssql");
 const config = require("../config");
+const db = require("../services/database.service");
 const { safeInt16Array } = require("../utils/audio.utils");
 const { sendToClient } = require("../utils/websocket.utils");
 
 class EnrollmentHandler {
   constructor(clientWs) {
     this.ws = clientWs;
-    this.userNum = null;  // Changed from userName to userNum
-    this.bufferCache = [];
+    this.userNum = null;
+    this.pythonWs = null;
     this.isEnrolled = false;
+    this.audioBuffer = [];
+    this.ENROLL_CHUNK_SIZE = 6144;
   }
 
   start() {
     console.log("🎤 Enrollment session started");
+    this.ws.on("message", (data) => this.handleMessage(data));
+    this.ws.on("close", () => this.handleDisconnect());
+  }
 
-    // Start Python Profiler
-    axios.post(`${config.PYTHON_SERVICE_URL}/enroll_start`)
-      .then(() => {
-        console.log("✅ Python Profiler Started");
-        sendToClient(this.ws, { 
-          type: "status", 
-          message: "Profiler ready" 
-        });
-      })
-      .catch(error => {
-        console.error("❌ Python Error:", error.message);
-        sendToClient(this.ws, { 
-          type: "error", 
-          message: "Failed to start profiler" 
-        });
+  connectToPython() {
+    const wsUrl = config.PYTHON_SERVICE_URL.replace(/^http/, "ws") + "/ws/enroll";
+
+    try {
+      this.pythonWs = new WebSocket(wsUrl);
+    } catch (err) {
+      console.error("❌ Python enroll WS connect error:", err.message);
+      sendToClient(this.ws, { type: "error", message: "Failed to connect to enrollment service" });
+      return;
+    }
+
+    this.pythonWs.on("open", () => {
+      // Send start message with userNum
+      this.pythonWs.send(JSON.stringify({ type: "start", userNum: this.userNum }));
+    });
+
+    this.pythonWs.on("message", (data) => {
+      try {
+        const msg = JSON.parse(data);
+        this.handlePythonMessage(msg);
+      } catch {
+        // ignore parse errors
+      }
+    });
+
+    this.pythonWs.on("error", (err) => {
+      console.error("❌ Python enroll WS error:", err.message);
+      sendToClient(this.ws, { type: "error", message: "Enrollment service error" });
+    });
+
+    this.pythonWs.on("close", () => {
+      this.pythonWs = null;
+    });
+  }
+
+  async handlePythonMessage(msg) {
+    if (msg.type === "started") {
+      sendToClient(this.ws, { type: "status", message: `Enrolling Provider ${this.userNum}` });
+    } else if (msg.type === "progress") {
+      sendToClient(this.ws, { type: "progress", percentage: msg.percentage, feedback: msg.feedback });
+    } else if (msg.type === "complete") {
+      this.isEnrolled = true;
+
+      // Write voice profile URL to DB
+      if (msg.blobUrl) {
+        try {
+          const pool = await db.getPool();
+          const request = pool.request();
+          request.input('ProviderUserID', sql.UniqueIdentifier, this.userNum);
+          request.input('VoiceProfileBlobUrl', sql.NVarChar, msg.blobUrl);
+          request.input('EnrolledAt', sql.DateTime, new Date());
+          await request.execute('api.sUpdateProviderVoiceProfile');
+          console.log(`✅ Voice profile URL saved to DB: ${this.userNum}`);
+        } catch (dbErr) {
+          console.error(`❌ Failed to save voice profile URL to DB:`, dbErr.message);
+        }
+      }
+
+      sendToClient(this.ws, {
+        type: "success",
+        percentage: 100,
+        message: "Enrollment complete!",
+        blobUrl: msg.blobUrl
       });
 
-    // Handle incoming messages
-    this.ws.on("message", (data) => this.handleMessage(data));
-    
-    // Handle disconnect
-    this.ws.on("close", () => this.handleDisconnect());
+      console.log(`✅ Profile Saved: Provider ${this.userNum}`);
+    } else if (msg.type === "error") {
+      sendToClient(this.ws, { type: "error", message: msg.message });
+    }
   }
 
   async handleMessage(data) {
@@ -48,82 +101,31 @@ class EnrollmentHandler {
       if (str.startsWith("{")) {
         const msg = JSON.parse(str);
         if (msg.type === "start" && msg.userNum) {
-          this.userNum = parseInt(msg.userNum);
+          this.userNum = msg.userNum;
           console.log(`👤 Enrolling Provider UserNum: ${this.userNum}`);
-          sendToClient(this.ws, { 
-            type: "status", 
-            message: `Enrolling Provider ${this.userNum}` 
-          });
+          this.connectToPython();
           return;
         }
       }
-    } catch (error) {
-      // Not a JSON message, treat as audio
+    } catch {
+      // Not JSON — treat as audio
     }
 
-    if (!this.userNum) return;
+    if (!this.userNum || !this.pythonWs) return;
 
-    // Process audio data
-    await this.processAudio(data);
-  }
-
-  async processAudio(data) {
-    // Accumulate audio samples
+    // Buffer audio and send in chunks large enough for Eagle enrollment
     const pcm = safeInt16Array(data);
     for (let i = 0; i < pcm.length; i++) {
-      this.bufferCache.push(pcm[i]);
+      this.audioBuffer.push(pcm[i]);
     }
 
-    // Send to Python when we have enough samples
-    if (this.bufferCache.length >= config.ENROLLMENT_CHUNK_SIZE) {
-      const chunk = new Int16Array(this.bufferCache);
-      this.bufferCache = [];
-
+    if (this.audioBuffer.length >= this.ENROLL_CHUNK_SIZE && this.pythonWs?.readyState === WebSocket.OPEN) {
       try {
-        const form = new FormData();
-        form.append('file', Buffer.from(chunk.buffer), { 
-          filename: 'audio.pcm' 
-        });
-
-        const response = await axios.post(
-          `${config.PYTHON_SERVICE_URL}/enroll_process`, 
-          form, 
-          {
-            headers: form.getHeaders()
-          }
-        );
-
-        const { percentage, feedback } = response.data;
-        
-        sendToClient(this.ws, { 
-          type: "progress", 
-          percentage, 
-          feedback 
-        });
-
-        // Check if enrollment is complete
-        if (percentage >= 100 && !this.isEnrolled) {
-          this.isEnrolled = true;
-          
-          await axios.post(`${config.PYTHON_SERVICE_URL}/enroll_save`, { 
-            userNum: this.userNum 
-          });
-          
-          sendToClient(this.ws, { 
-            type: "success", 
-            percentage: 100, 
-            message: "Enrollment complete!" 
-          });
-          
-          console.log(`✅ Profile Saved: Provider ${this.userNum}`);
-        }
-        
-      } catch (error) {
-        console.error("❌ Enrollment Error:", error.message);
-        sendToClient(this.ws, { 
-          type: "error", 
-          message: "Enrollment failed" 
-        });
+        const chunk = new Int16Array(this.audioBuffer);
+        this.audioBuffer = [];
+        this.pythonWs.send(Buffer.from(chunk.buffer));
+      } catch {
+        // ignore send errors
       }
     }
   }
@@ -132,6 +134,10 @@ class EnrollmentHandler {
     console.log("⚪ Enrollment session closed");
     if (this.userNum && !this.isEnrolled) {
       console.log(`   Incomplete enrollment for Provider: ${this.userNum}`);
+    }
+    if (this.pythonWs) {
+      this.pythonWs.close();
+      this.pythonWs = null;
     }
   }
 }

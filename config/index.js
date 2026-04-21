@@ -27,13 +27,7 @@ module.exports = {
   
   // Python Eagle Service
   PYTHON_SERVICE_URL: process.env.PYTHON_SERVICE_URL || "http://localhost:8000",
-  
-  // Database (add your DB config)
-  DATABASE_URL: process.env.DATABASE_URL,
-  
+
   // Settings
-  EAGLE_CONFIDENCE_THRESHOLD: 0.9,
   VERIFICATION_WINDOW_MS: 3000,
-  AUDIO_CHUNK_SIZE: 2048,
-  ENROLLMENT_CHUNK_SIZE: 6144,
 };

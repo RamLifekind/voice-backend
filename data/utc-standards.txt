@@ -1,0 +1,1924 @@
+
+Lifekind UTC Standards 
+Program Guidelines  for the Operation of 
+Unitized Transdisciplinary Care  
+
+
+
+
+ Effective October 1, 2025
+Table of Contents
+2025 Lifekind UTC Standards	9
+Description	9
+Standard 1 – Scope of Services Across Whole-Person Dimensions	11
+Standard 1.1 – Purpose	11
+Standard 1.2 – Required Dimensions of Care	11
+Intent Statement	12
+Examples	13
+Standard 2 – Transdisciplinary Team Composition	14
+Standard 2.1 – Purpose	14
+Standard 2.2 – Required Elements of Team Composition	14
+Intent Statement	15
+Examples	16
+Standard 3 – Services / Programs	18
+Standard 3.1 – Purpose	18
+Standard 3.2 – Required Service Domains	18
+Standard 3.3 – Documentation of Service Linkages	21
+Standard 3.4 – External Resource Role	21
+Intent Statement	21
+Examples	22
+Standard 4 – Facilities: Rooms & Layout	23
+Standard 4.1 – Purpose of Physical Environment	23
+Standard 4.2 – Core Facility Zones	23
+Standard 4.3 – Functional Requirements	25
+Intent Statement	25
+Examples	26
+Standard 5 – Facilities: Equipment	27
+Standard 5.1 – Equipment Adequacy and Alignment	27
+Standard 5.2 – Functional Categories of Equipment	27
+Standard 5.3 – Safety, Hygiene & Accessibility	29
+Intent Statement	29
+Examples	30
+Standard 6 – Facilities: Collaborative Concepts	31
+Standard 6.1 – Purpose of Space as a Cultural Enabler	31
+Standard 6.2 – Core Spatial Concepts	31
+Standard 6.3 – Training, Orientation, and Replication	32
+Standard 6.4 – Design Integration & Accessibility	32
+Intent Statement	32
+Examples	33
+Standard 7 – Contracting	34
+Standard 7.1 – Contracting Philosophy	34
+Standard 7.2 – Priority of Value-Based Care	34
+Standard 7.3 – Fee-for-Service (FFS) with Enhanced Management	34
+Standard 7.4 – Non-Covered Services	34
+Standard 7.5 – Flexibility and Local Adaptation	35
+Intent Statement	35
+Examples	36
+Standard 8 – Program Director Responsibilities	37
+Standard 8.1	37
+Intent Statement	38
+Examples	38
+Standard 9 – Clinical Champion Responsibilities	39
+Standard 9.1	39
+Intent Statement	40
+Examples	40
+Standard 10 – Clinical Champion Qualifications	41
+Standard 10.1	41
+Intent Statement	42
+Examples	42
+Standard 11 – Transdisciplinary Team (Non-Physician) Qualifications	43
+Standard 11.1 – Qualifications and Competency	43
+Standard 11.2 – Core Competencies Across All Roles	43
+Standard 11.3 – Role-Specific Minimum Qualifications	44
+Intent Statement	45
+Examples	45
+Standard 12 – Program Timing (Cyclical Delivery)	46
+Standard 12.1 – Program Structure	46
+Standard 12.2 – Initial Cycle and Engagement	46
+Standard 12.3 – Subsequent Cycles	46
+Standard 12.4 – Focus of Each Cycle	47
+Standard 12.5 – Best Achievable Outcome (BAO)	47
+Standard 12.6 – Continuous Reassessment	47
+Standard 12.7 – Wellness Cycle	48
+Intent Statement	48
+Examples	49
+Standard 13 – Admissions Process	50
+Standard 13.1 – Defined Admissions Process	50
+Standard 13.2 – Admission Criteria	50
+Standard 13.3 – Whole Person Dimensional Needs Based Assessment	50
+Standard 13.4 – Contraindication Discovery	51
+Standard 13.5 – Patient Orientation to UTC	51
+Standard 13.6 – Formal Induction Phase	52
+Intent Statement	52
+Examples	53
+Standard 14 – Dimensional Needs Based Assessment	54
+Standard 14.1 – Comprehensive Initial Evaluation	54
+Standard 14.2 – Required Components	54
+Standard 14.3 – Contraindication Review	55
+Standard 14.4 – Treatment Plan Foundation	55
+Standard 14.5 – Documentation and Communication	55
+Intent Statement	56
+Examples	56
+Standard 15 – Initial & Ongoing Assessments	57
+Standard 15.1 – Purpose	57
+Standard 15.2 – Initial Assessments	57
+Standard 15.3 – Ongoing Assessments	57
+Standard 15.4 – Use of Data	58
+Intent Statement	58
+Examples	58
+Standard 16 – Chronic Opioid Use	60
+Standard 16.1 – Purpose	60
+Standard 16.2 – Required Elements	60
+Standard 16.3 – Care Team Approach	61
+Standard 16.4 – Documentation	61
+Intent Statement	61
+Examples	61
+Standard 17 – Process and Procedures for Initial & Ongoing Assessments	63
+Standard 17.1 – Purpose	63
+Standard 17.2 – Documentation of Initial and Ongoing Assessments	63
+Standard 17.3 – Cycle-Based Integration	63
+Standard 17.4 – Use of Evidence and Patient Preference	64
+Standard 17.5 – Communication of Findings	64
+Intent Statement	64
+Examples	65
+Standard 18 – Unit Activity (Flow Coordination)	66
+Standard 18.1 – Purpose	66
+Standard 18.2 – Structure of a Unit	66
+Standard 18.3 – Triage and Complexity	66
+Standard 18.4 – Flow Coordination	67
+Standard 18.5 – Efficiency and Throughput	67
+Intent Statement	67
+Examples	68
+Standard 19 – Non-Unit Activity (Advanced Primary & Complex Care)	69
+Standard 19.1 – Purpose	69
+Standard 19.2 – Scope of Non-Unit Activities	69
+Standard 19.3 – Care Delivery Approach	70
+Standard 19.4 – Patient Engagement	70
+Standard 19.5 – Payer & Quality Alignment	70
+Intent Statement	70
+Examples	71
+Standard 20 – Care Coordination	72
+Standard 20.1 – Purpose	72
+Standard 20.2 – Internal Coordination	72
+Standard 20.3 – External Coordination	72
+Standard 20.4 – Responsibilities of Care Coordination	72
+Standard 20.5 – Team Role in Care Coordination	73
+Intent Statement	73
+Examples	74
+Standard 21 – Stakeholder Communication	75
+Standard 21.1 – Purpose	75
+Standard 21.2 – Required Communication Points	75
+Standard 21.3 – Stakeholders	75
+Standard 21.4 – Modes of Communication	75
+Standard 21.5 – Documentation	76
+Intent Statement	76
+Examples	77
+Standard 22 – 24/7 Access to Care	78
+Standard 22.1 – Purpose	78
+Standard 22.2 – Access Requirements	78
+Standard 22.3 – Modes of Access	78
+Standard 22.4 – Responsibilities of the Care Team	78
+Intent Statement	79
+Examples	79
+Standard 23 – Drug Screening Procedures	80
+Standard 23.1 – Purpose	80
+Standard 23.2 – Required Elements of Procedures	80
+Standard 23.3 – Clinical Integration	80
+Standard 23.4 – Risk-Based Approach	81
+tandard 23.5 – Patient-Centeredness	81
+Intent Statement	81
+Examples	82
+Standard 24 – Community Support	83
+Standard 24.1 – Purpose	83
+Standard 24.2 – Community Health Worker (CHW) Integration	83
+Standard 24.3 – Scope of Services	83
+Standard 24.4 – Family and Support System Involvement	84
+Standard 24.5 – Documentation & Coordination	84
+Intent Statement	84
+Examples	85
+Standard 25 – Disenrollment	86
+Standard 25.1 – Purpose	86
+Standard 25.2 – Criteria for Disenrollment	86
+Standard 25.3 – Required Process	86
+Standard 25.4 – Exceptions for Immediate Disenrollment	87
+Intent Statement	87
+Examples	88
+Standard 26 – Post-Discharge Contact	89
+Standard 26.1 – Purpose	89
+Standard 26.2 – Required Post-Discharge Provisions	89
+Standard 26.3 – Timing & Mechanisms	89
+Standard 26.4 – Continuity of Care	89
+Standard 26.5 – Documentation	90
+Intent Statement	90
+Examples	91
+Standard 27 – Prescribing Standard of Care	92
+Standard 27.1 – Purpose	92
+Standard 27.2 – Guiding Principles	92
+Standard 27.3 – Prescribing Practices	92
+Standard 27.4 – Monitoring and Follow-Up	93
+Standard 27.5 – Safety and Compliance	93
+Intent Statement	93
+Examples	94
+Standard 28 – Prescribing Basis	95
+Standard 28.1 – Purpose	95
+Standard 28.2 – Prescribing Basis	95
+Standard 28.3 – Monitoring and Documentation	96
+Standard 28.4 – Shared Decision-Making	96
+Intent Statement	96
+Examples	97
+Standard 29 – Medication Management Guidelines	98
+Standard 29.1 – Purpose	98
+Standard 29.2 – Required Elements of Medication Management	98
+Standard 29.3 – Monitoring and Safety Tools	99
+Standard 29.4 – Whole-Person Integration	99
+Intent Statement	100
+Examples	100
+Standard 31 – Peer Review of Prescribing Services	101
+Standard 31.1 – Purpose	101
+Standard 31.2 – Frequency and Scope	101
+Standard 31.3 – Reviewer Qualifications	101
+Standard 31.4 – Review Elements	102
+Standard 31.5 – Use of Results	102
+Intent Statement	102
+Examples	103
+Standard 32 – Continuing Education for UTC	104
+Standard 32.1 – Purpose	104
+Standard 32.2 – Required Elements of CE Programs	104
+Standard 32.3 – CE Delivery and Tracking	105
+Standard 32.4 – Integration with Quality Improvement	105
+Standard 32.5 – Fellowship and Leadership Development	105
+Intent Statement	105
+Examples	106
+Standard 33 – Research Readiness	107
+Standard 33.1 – Purpose	107
+Standard 33.2 – Organizational Commitment	107
+Standard 33.3 – Research Infrastructure	107
+Standard 33.4 – Patient & Stakeholder Engagement	108
+Standard 33.5 – Knowledge Translation	108
+Intent Statement	108
+Examples	109
+Standard 34 – Financial Operations	110
+Standard 34.1 – Purpose	110
+Standard 34.2 – Required Financial Practices	110
+Standard 34.3 – Transparency & Accountability	111
+Standard 34.4 – Integration with Clinical and Operational Goals	111
+Intent Statement	111
+Examples	112
+Standard 35 – Annual Written Analysis of Services & Outcomes	113
+Standard 35.1 – Purpose	113
+Standard 35.2 – Required Elements	113
+Standard 35.3 – Process Requirements	114
+Standard 35.4 – Integration with Other Standards	114
+Intent Statement	114
+Examples	115
+Standard 36 – Annual Written Analysis of Clinical Operations	116
+Standard 36.1 – Purpose	116
+Standard 36.2 – Required Indicators	116
+Standard 36.3 – Documentation and Analysis	117
+Standard 36.4 – Education and Training Linkage	117
+Intent Statement	117
+Examples	118
+Standard 37 – Annual Written Analysis of Utilization Management / Quality	119
+Standard 37.1 – Purpose	119
+Standard 37.2 – Required Indicators	119
+Standard 37.3 – Process Requirements	120
+Standard 37.4 – Integration with QI and Education	120
+Intent Statement	120
+Examples	121
+Standard 38 – Technology	122
+Standard 38.1 – Purpose	122
+Standard 38.2 – Core Clinical Systems	122
+Standard 38.3 – Care Coordination & Interdisciplinary Tools	122
+Standard 38.4 – Data & Performance Infrastructure	122
+Standard 38.5 – Operational Technology	123
+Standard 38.6 – Compliance & Security	123
+Standard 38.7 – Education & Workforce Enablement	123
+Intent Statement	124
+Examples	124
+Standard 39 – Software Utilization	125
+Standard 39.1 – Purpose	125
+Standard 39.2 – Core Functional Requirements	125
+Standard 39.3 – Mutual Dependency of Methodology and Platform	126
+Intent Statement	126
+Examples	127
+Appendix A: UTC Standards Order w/ CARF Mapping	128
+
+
+
+2025 Lifekind UTC Standards
+Description
+Unitized Transdisciplinary Care (UTC) is a healthcare delivery model that delivers whole-person, value-based care through a fully integrated, transdisciplinary team model. It is more than just a program; it is a philosophy. As such, it requires the complete enculturation of the enterprise (patients, providers, and even payors) into a new way of practicing. Rooted in the biopsychosocial-spiritual framework, UTC aligns clinical, functional, behavioral, social, and spiritual dimensions of health into a unified care plan. Treatment is individualized and designed to empower the person served to achieve functional restoration, self-management of complex conditions (including persistent pain), re-engagement in life roles, and sustainable improvements in quality of life. This approach is geared towards patients who have developed chronic pain and may have tried various interventions previously.
+The UTC philosophy actively addresses chronic opioid use when appropriate, promoting alternative approaches and equipping persons served with behavioral strategies, education, and support. It leverages integrated technology and team-based workflows to ensure timely, coordinated interventions across settings and disciplines.
+UTC programs encourage appropriate use of healthcare services while minimizing fragmentation. The model engages families and support systems, fosters long-term wellness, and equips each person to thrive within their community, home, and vocation. Moreover, the model puts the patient in the center by working to treat the patient to the level of wellness that they desire. The philosophy is committed to the continuous use of evidence-based practices and data-driven care optimization.
+UTC organizations participate in research, policy engagement, and community education to advance the field of whole person complex care. They serve as advocates for individuals with persistent and co-occurring conditions, engaging stakeholders including regulators, legislators, funders, academic partners, and payors.
+NOTE: A program seeking accreditation as a Unitized Transdisciplinary Care facility must include in its application all services and workflows that reflect UTC principles, regardless of whether they are directly provided or coordinated through integrated systems.
+Standard 1 – Scope of Services Across Whole-Person Dimensions
+Standard 1.1 – Purpose
+The Unitized Transdisciplinary Care (UTC) program must directly provide or meaningfully integrate services to meet the complex and interdependent needs of persons served across the following whole-person dimensions.
+Standard 1.2 – Required Dimensions of Care
+	•	Biological / Physical
+	•	Description: Physical health status including items such as pain, chronic illness, acute conditions, disability, and physiological function.
+	•	Care Implications: Medical diagnosis and treatment, interventional procedures, pharmacologic management, nutritional counseling, physical therapy, chiropractic care, movement-based rehabilitation, preventing complications, and addressing comorbidities.
+	•	Psychological / Emotional
+	•	Description: Mental and emotional health, coping strategies, trauma recovery, and behavioral functioning.
+	•	Care Implications: Behavioral health interventions including counseling, trauma-informed therapy, cognitive behavioral therapy, mindfulness, and psychosocial evaluation when needed.
+	•	Social / Relational
+	•	Description: Family dynamics, caregiving roles, peer and community relationships, and available social supports.
+	•	Care Implications: Family meetings, care coordination, case management, group-based therapies, and connection to community supports.
+	•	Spiritual / Existential
+	•	Description: The person’s values, beliefs, purpose, sense of meaning, and connection to faith or transcendent identity.
+	•	Care Implications: Chaplaincy referrals, spiritual assessment, life-goals planning, faith-community integration, and existential therapy when appropriate.
+	•	Economic / Environmental
+	•	Description: Social determinants of health including employment, income, food security, transportation, and living conditions.
+	•	Care Implications: SDOH screenings, financial navigation, resource connection, benefits enrollment, and partnership with local support systems.
+	•	Functional / Vocational
+	•	Description: Activities of daily living (ADLs), independence in self-care and daily routines, physical function, and participation in productive or meaningful work.
+	•	Care Implications: Occupational therapy, vocational rehabilitation, adaptive device training, and functional capacity evaluations.
+Intent Statement
+UTC recognizes that whole-person health cannot be achieved through siloed care. Therefore, programs must demonstrate the capacity—either directly or through coordinated partnerships—to assess, address, and integrate all six dimensions into the care planning and service delivery process. Care plans must reflect this integrated scope and be documented accordingly.
+Examples
+1.2.a.(1) A patient with diabetes receives integrated care including medication oversight, dietary coaching, and PT-guided exercise protocols. 1. 2.a.(2) A patient with lumbar pain is educated about their condition and given a treatment plan that includes medial branch blocks, followed by physical reconditioning and anti-inflammatory medications.
+1. 2.b.(1) A patient with chronic pain and depression participates in therapy sessions and collaborative team-based care planning. 1. 2.b.(2) A new enrollee completes behavioral health screenings (PHQ-9, GAD-7) at intake, identifying underlying anxiety to be addressed in care planning.
+1. 2.c.(1) A patient experiencing caregiver burnout receives a social work consult and a referral for respite resources. 1.2.c.(2) A patient facing food insecurity is connected to a community food bank and transportation assistance.
+1.2.d.(1) A patient struggling with loss of function receives optional chaplaincy services for spiritual support. 1.2.d.(2) During care planning, a patient identifies a goal of “walking my daughter down the aisle”; the team integrates this milestone into the care plan.
+1.2.e.(1) A patient screened for SDoH with PRAPARE reveals unstable housing; the CHW connects them to transitional housing resources. 1.2.e.(2) A patient with work-related back pain is referred to legal aid for workers’ compensation and vocational services for job reintegration.
+1.2.f.(1) A manual laborer recovering from injury undergoes vocational rehabilitation to return safely to work. 1.2.f.(2) A patient recovering from a spine procedure receives adaptive technology training and OT support to improve independence in daily living.
+
+Standard 2 – Transdisciplinary Team Composition
+Standard 2.1 – Purpose
+The Unitized Transdisciplinary Care (UTC) program must include a transdisciplinary team composed of qualified professionals who collaboratively develop, implement, and adjust care plans based on the evolving needs of each person served.
+Standard 2.2 – Required Elements of Team Composition
+	•	Person Served as Team Leader
+	•	Description: The person served is the central and active member of the care team.
+	•	Care Implications: Patients are empowered as decision-makers in their care and supported in identifying goals, outcomes, and priorities.
+	•	Core Direct-Care Team Members
+	•	Medical Provider – Internal Medicine, Primary Care, or PM&R (Physiatry) preferred; responsible for patient intake, diagnosis, treatment planning, medication management, and clinical oversight. 
+	•	Follow-up care can be delegated to a team of Advanced Practice Providers (APP).
+	•	Behavioral Health Provider – Psychologist (PhD, PsyD), LCSW, or LMFT; facilitates behavioral interventions, trauma care, coping strategies, and emotional well-being.
+	•	Physical Reconditioning Provider – Physical Therapist (PT) or Doctor of Chiropractic (DC); delivers movement-based therapies, functional assessments, and rehabilitation.
+	•	Alternative Care Provider – Registered Dietitian (RD), Licensed Acupuncturist (LAc), Licensed Massage Therapist (LMT), or similar role; provides adjunctive therapies such as nutrition therapy, acupuncture, massage, or somatic therapies as part of the transdisciplinary approach.
+	•	Care Manager – Registered Nurse (RN) or Licensed Vocational Nurse (LVN); coordinates services, facilitates transitions, supports medication safety, and tracks care progression.
+	•	Community Support Specialist – Community Health Worker (CHW); addresses social determinants of health, navigates resources, and supports person-centered care.
+	•	Flow Coordinator – Often a unit scheduler or operations role; facilitates timely scheduling, manages unit flow, and ensures care plan adherence.
+	•	Family and Caregiver Involvement
+	•	Description: Family members and caregivers are included in the care process as preferred by the person served.
+	•	Care Implications: Involvement may include participation in goal-setting, education, and support during care planning and treatment.
+	•	Expanded Team
+	•	Description: The team expands to include additional licensed healthcare professionals as patient complexity increases.
+	•	Care Implications: Specialists such as pain management physicians, neurologists, orthopedic consultants, substance use counselors, or vocational rehabilitation specialists may join the team temporarily or as needed.
+Intent Statement
+UTC requires a structured yet dynamic team model. Core members collaborate regularly, while additional professionals join or exit as complexity changes. Every member operates with shared accountability for whole-person outcomes, avoiding silos and deferring to team expertise rather than rigid hierarchy.
+
+Examples
+2.a.(1) A patient with chronic low back pain identifies their primary goal as “returning to gardening.” This goal is presented in Scrum, and their expressed goal shapes the transdisciplinary care plan.
+2.b.(1) The Complex Care Physician adjusts hypertension medication for a patient while coordinating with the RD and PT to align nutrition and exercise goals. Care is coordinated with the care management team to ensure patient compliance and motivation. 
+2.b.(2) A Behavioral Health Provider facilitates CBT for a patient with depression while contributing strategies in Scrum to support PT pacing for exercise adherence.
+2.b.(3) A PT evaluates gait instability in a post-surgical patient, collaborates with the chiropractor to address spine alignment, and updates the Care Manager for medication safety planning.
+2.b.(4) A dietitian integrates nutritional counseling into a patient’s pain management plan, aligning with the behavioral health provider’s stress reduction strategies.
+2.b.(5) The Care Manager ensures a patient with multiple medications receives proper reconciliation, educates the patient on adherence, and coordinates follow-up labs.
+2.b.(6) A CHW identifies transportation barriers and connects the patient to a local ride service, improving show rates for unit sessions.
+2.b.(7) The Flow Coordinator manages patient rotation in a unit, ensuring each patient transitions smoothly between medical, behavioral, and group activities.
+2.c.(1) A patient invites their spouse to a care planning meeting, where the spouse provides valuable insights into daily functioning and supports shared goal-setting.
+2.d.(1) A neurologist is temporarily added to the care team to co-manage neuropathic pain, providing consultative expertise that informs the UTC care plan.
+2.d.(2) A vocational rehabilitation specialist evaluates work readiness for a patient recovering from injury and develops a phased return-to-work plan integrated into UTC.
+Standard 3 – Services / Programs
+Standard 3.1 – Purpose
+The Unitized Transdisciplinary Care (UTC) program must identify and maintain access to services that meet the whole-person needs of individuals served. These services may be provided directly, through internal cross-functional teams, or via coordinated partnerships with trusted external entities. For each service, the program must demonstrate how it ensures timely access, continuity, and integration into the UTC care plan.
+Standard 3.2 – Required Service Domains
+	•	Biological / Physical Health Services
+	•	Medical diagnosis and treatment (primary care, pain, ortho, neuro, rheum, etc.).
+	•	Medication management and reconciliation.
+	•	Chronic disease management (e.g., diabetes, hypertension).
+	•	Interventional procedures (e.g., injections, ablations).
+	•	Post-surgical recovery support.
+	•	Physical therapy and rehabilitation.
+	•	Nutrition planning and counseling.
+	•	Diagnostic and laboratory testing.
+	•	Pharmacy services.
+	•	Preventive care and immunizations.
+	•	Management of comorbidities and complications.
+	•	Psychological / Emotional Health Services
+	•	Psychological assessment and diagnostic clarification.
+	•	Individual, family, and group psychotherapy.
+	•	Psychoeducation pertaining to mind-body connection.
+	•	Trauma-informed care.
+	•	Coping skills training and behavioral activation.
+	•	Crisis intervention and suicide risk monitoring.
+	•	Addiction and recovery support.
+	•	Medication-assisted treatment (MAT) for behavioral health conditions.
+	•	Psychiatric evaluation and medication management.
+	•	Peer support programs.
+	•	Mindfulness and stress management techniques.
+	•	Social / Relational Support Services
+	•	Social support network assessment.
+	•	Family and caregiver counseling.
+	•	Connection to community-based organizations.
+	•	Domestic violence and safety risk screening.
+	•	Peer mentorship and group support.
+	•	Caregiver burden evaluation and intervention.
+	•	Culturally responsive social engagement services.
+	•	Housing navigation and eviction prevention.
+	•	Transportation assistance for medical and daily life needs.
+	•	Spiritual / Existential Services
+	•	Spiritual assessments.
+	•	Meaning-centered care planning.
+	•	Grief and bereavement support.
+	•	Chaplaincy services and faith-based rituals.
+	•	Purpose discovery sessions.
+	•	Advance care planning and life meaning exploration.
+	•	Support for end-of-life transitions.
+	•	Economic / Environmental Support Services
+	•	Social determinants of health (SDoH) screening and tracking.
+	•	Benefits enrollment (e.g., Medicaid, SSI, housing vouchers).
+	•	Financial counseling and planning.
+	•	Access to legal aid and advocacy.
+	•	Employment support (work leave, accommodations).
+	•	Food security resources and coordination.
+	•	Housing stability services (shelters, transitional housing).
+	•	Utilities and digital access support. 
+	•	Functional / Vocational Services
+	•	Activities of daily living (ADL/IADL) training.
+	•	Return-to-work readiness and vocational rehabilitation.
+	•	Functional capacity evaluations.
+	•	Assistive technology assessment and training.
+	•	Independent living skill-building.
+	•	Home and workplace adaptations.
+	•	Cognitive rehabilitation and memory support.
+	•	Transportation training and access planning.
+	•	Speech, language, and communication support.
+
+Standard 3.3 – Documentation of Service Linkages
+For each identified service, the program must document:
+	•	Whether the service is provided directly, co-managed, or referred.
+	•	The scope of responsibilities assigned to the UTC team and external providers.
+	•	Primary communication contacts and frequency of updates.
+	•	How the service is integrated into the UTC care plan and EHR documentation.
+Standard 3.4 – External Resource Role
+The program must act as a resource and connector for external providers and stakeholders, offering training, care coordination updates, and referral pathways to ensure seamless and person-centered transitions.
+Intent Statement
+UTC care delivery is only effective when the full ecosystem of whole-person services is available, coordinated, and tracked. This standard ensures that persons served receive integrated care across all domains, with clearly defined roles and seamless documentation of services—whether delivered by UTC teams or external partners.
+
+Examples
+3.2.a(1) The UTC program provides physical reconditioning and behavioral health services internally, while referring to a community acupuncture clinic and local food pantry. Referrals are initiated through the Savas platform and reviewed during Scrums.
+3.2.b(1) Psychiatric evaluations are co-managed with a local FQHC; housing stability services are contracted through a regional housing nonprofit, and both are linked into the care plan.
+3.2.c(1) Community Health Workers (CHWs) identify economic hardships during onboarding and initiate support services for utilities and food insecurity. These are documented in the UTC care plan and reviewed in monthly case reviews.
+3.2.d(1) A chaplain is available on-call for patients requesting spiritual support. Encounters are documented in the “Spirit/Life” domain of the UTC record and discussed during Scrums.
+3.2.f(1) Occupational therapy services are provided externally through a certified partner. The OT participates in monthly Scrums via Microsoft Teams and uploads structured progress notes to the EHR.
+3.3.a(1) Referrals made through the Savas platform are coded using standardized referral categories and tracked for closure. Reports are generated quarterly and reviewed by the Program Director to identify underutilized services or care gaps.
+
+
+Standard 4 – Facilities: Rooms & Layout
+Standard 4.1 – Purpose of Physical Environment
+The physical facility must reinforce UTC’s integrated care philosophy by promoting calm, connected, collaborative, and efficient multi-provider service delivery. The layout must:
+	•	Prioritize healing from the moment of entry.
+	•	Enable seamless flow between preparation, assessment, and treatment zones.
+	•	Support concurrent delivery of care across all six dimensions of whole-person health.
+	•	Maximize throughput for a minimum of 8 UTC participants per unit, with flexibility for up to 4 additional individual or group visits.
+Standard 4.2 – Core Facility Zones
+	•	Healing Room (Reimagined Waiting Room)
+	•	Tranquil and ambient entry space that initiates the healing process before care begins.
+	•	Features natural lighting, ambient music, nature-inspired design, meditative content on screen, and welcoming staff interaction without physical barriers.
+	•	Seating for ~20 individuals with zones for relaxation, reflection, or light conversation.
+	•	Encourages patients to prepare mentally and emotionally for transdisciplinary engagement.
+	•	Technology Wall / Transition Threshold
+	•	Visually and symbolically separates the Healing Room from clinical areas.
+	•	Reinforces the shift from passive healing to active healing.
+	•	Therapy Room 
+	•	Open, dynamic space for group-based motion therapy and physical reconditioning.
+	•	Equipped with therapeutic stations for individual treatments (chiropractic, acupuncture, massage, coaching, etc.).
+	•	TV for exercise instruction or meditative content.
+	•	Capacity: a minimum of 6 patients and 2 providers simultaneously.
+	•	Designed for seamless transition from individual to group sessions.
+	•	Small Group Room
+	•	Capacity for 8 patients + 2 providers.
+	•	Used for diet education, behavioral health groups, orientation sessions, and goal-setting workshops.
+	•	Adjustable lighting, warm blanket storage, and wall-mounted media display.
+	•	Evaluation and Treatment Rooms
+	•	2 Medical Exam Rooms per MTU: General medical use and care coordination.
+	•	1 Auxiliary Medical Room: Dual-use for dietetic consultations or care coordination.
+	•	1 Behavioral Health Room: Private, virtual-enabled, space for the patient + 3 others.
+	•	2 PR Evaluation Rooms: Chiropractic treatment, e-stim capability, and equipment storage near Therapy Room.
+	•	1–2 Auxiliary Rooms: Flexible rooms for other providers.
+	•	Support Spaces
+	•	New Patient Lounge: Homelike, low stimulation setting with care coordinator greeting new patients, testimonial displays, and brochures.
+	•	Care Team Office: Shared space for CHW and LVN Care Coordinator with phone access and virtual visit capabilities.
+	•	Flow Coordinator Work Area: Quick-connect dock and scheduling console in a central location.
+
+Standard 4.3 – Functional Requirements
+The facility must be capable of:
+	•	Hosting a minimum of 15 staff concurrently.
+	•	Facilitating unit-based rotation through multiple services during a single visit.
+	•	Allowing flexible, tech-enabled documentation and hybrid in-person/virtual care.
+	•	Supporting a hybrid model of group and individual encounters, including large motion-based activities and intimate care planning.
+Intent Statement
+The layout of a UTC facility is not merely a matter of logistics, but a strategic design element that communicates dignity, partnership, and whole-person healing. The structure should reinforce seamless team interaction, reduce barriers between patients and providers, and reflect UTC's unitized care philosophy by facilitating flow and flexibility.
+
+Examples
+4.2.a(1) The Healing Room includes calming music, interactive art, and scent diffusers (if appropriate). Patients are welcomed personally by the front office PSR, not behind glass. This area redefines traditional waiting as a space of preparation and peace.
+4.2.b(1) Patients crossing the central technology wall transition from reception to active engagement. The wall displays calming media on one side and dynamic care dashboards on the other.
+4.2.c(1) The Therapy Room is used for PT-directed motion groups, followed by side-by-side individual complementary sessions within semi-private alcoves.
+4.2.d(1) The Small Group Room hosts a shared behavioral activation group followed by a condition focused nutrition workshop (diabetes, hypercholesterolemia, inflammation, etc.), using ambient lighting presets and touchscreen content displays.
+4.2.e(1) Auxiliary PR rooms are spaces shared flexibly between complementary treatments like massage therapy and/or acupuncture, based on the needs of the unit rotation.
+4.2.f(1) The New Patient Lounge provides a soft first impression, with a care coordinator offering herbal tea and a patient success story displayed via digital frame.
+Standard 5 – Facilities: Equipment
+Standard 5.1 – Equipment Adequacy and Alignment
+UTC-accredited programs must maintain equipment and infrastructure sufficient to deliver safe, effective, and integrated care across all six whole-person domains. This includes both general clinical equipment and specialized tools necessary to perform unitized transdisciplinary services in real time.
+All equipment must:
+	•	Be consistent with the services provided by the organization.
+	•	Be properly maintained, stored, and sanitized.
+	•	Comply with relevant safety, regulatory, and infection control standards.
+	•	Support the program’s goals of whole-person healing and timely access to care.
+Standard 5.2 – Functional Categories of Equipment
+The facility must ensure that equipment and supplies are available to support services in the following categories:
+	•	Physical Reconditioning Equipment supporting strength, mobility, posture, balance, and functional restoration:
+	•	Active tools such as resistance bands, wall stations, stability systems
+	•	Passive modalities including traction tables, flexion-distraction tables, and intersegmental traction
+	•	Electrotherapy, cold laser, ultrasound therapy, and other soft tissue interventions
+	•	Ergonomic furniture or tools for patient and provider safety
+	•	Alternative & Complementary Therapy Equipment supporting delivery of non-pharmacologic, integrative approaches:
+	•	Therapy tables for massage, acupuncture, and bodywork
+	•	Cold laser therapy devices and electric stim units
+	•	Supplies to support cupping, aromatherapy, and related modalities
+	•	Storage for clean linens and reusable tools
+	•	Therapeutic Exercise & Movement Tools enabling active group and individual motion therapy sessions:
+	•	Functional movement mats, gait trainers, balance pads
+	•	Theraband systems or portable resistance tools
+	•	Props for breathwork, stretching, and corrective movement
+	•	Modular or portable tools that can be reconfigured for unit-based sessions
+	•	Medical Intervention Equipment for the delivery of in-clinic medical procedures and medication support:
+	•	Procedure-ready exam spaces with sterile field setup
+	•	Ultrasound guidance systems for accurate delivery of injections
+	•	Sharps disposal systems, PPE stations, and disinfectant protocols
+	•	Medication management infrastructure, including lockable drawers and logs for on-site medications such as Tramadol and lidocaine
+	•	Procedure kits and prep trays for minor interventions such as:
+	•	Trigger point injections
+	•	Nerve blocks
+	•	Joint aspirations
+	•	Medication-assisted treatments (MAT)
+	•	Medical & Diagnostic Support Tools for assessment, triage, and ongoing medical management:
+	•	Vitals stations, height/weight scales, and screening tools
+	•	Otoscopes, stethoscopes, EKGs, and glucose monitoring devices
+	•	Basic lab collection and specimen handling tools (where applicable)
+	•	Educational & Interactive Technology that facilitate patient engagement, education, and self-management:
+	•	Monitors or displays for care plan visualization and instructional media
+	•	Tablets or smart boards used during visits or group education sessions
+	•	TVs in the Healing Room and Therapy Room playing meditative or therapeutic content
+	•	Equipment that supports hybrid virtual/in-person workflows
+Standard 5.3 – Safety, Hygiene & Accessibility
+All clinical and therapy equipment must:
+	•	Be inspected, sanitized, and maintained according to a documented schedule.
+	•	Include usage protocols and signage as needed.
+	•	Be accessible for individuals with physical, sensory, or cognitive limitations.
+	•	Be reviewed periodically to ensure continued fitness for purpose.
+Intent Statement
+The UTC model emphasizes seamless integration of services, which requires a facility equipped to meet a broad spectrum of needs during a single episode of care. While specific brands or models are not prescribed, accredited programs must be able to demonstrate that their equipment inventory aligns with their scope of services, treatment capabilities, and safety protocols.
+
+Examples
+5.2.a(1) A therapy room includes a TheraBand wall system, flexion-distraction table, and traction table, allowing physical reconditioning providers to deliver movement therapy, soft tissue work, and spinal mobilization in the same space.
+5.2.b(1) Auxiliary rooms are used for massage and acupuncture. They are equipped with adjustable tables, aromatherapy supplies, and mobile carts containing sterile acupuncture kits.
+5.2.c(1) A mobile resistance kit allows the Small Group Room to be transformed into a movement space during unit rotation, enabling PTs to deliver therapeutic exercise after education sessions.
+5.2.d(1) Medical exam rooms contain an ultrasound unit used for occipital nerve blocks and intra-articular injections. Lockable drawers store injectable Tramadol and emergency response kits with naloxone.
+5.2.e(1) General diagnostic tools, including digital BP cuffs and a glucometer, are stored in wall-mounted cabinets for easy access during annual physicals or triage evaluations.
+5.2.f(1) The Healing Room plays a looping sequence of calming nature videos and breathwork prompts. In the Small Group Room, care plans are reviewed via wall-mounted screens that integrate with MyOnCare.
+
+Standard 6 – Facilities: Collaborative Concepts
+Standard 6.1 – Purpose of Space as a Cultural Enabler
+UTC-accredited facilities must use their physical design not only to enable care delivery but also to embody and reinforce the transdisciplinary philosophy that defines the model. Core spatial concepts like the Healing Room, Therapy Room, and Fishbowl must be implemented to drive cultural cohesion, teamwork, and a shared sense of mission.
+These concepts are not merely architectural features; they are training tools, environmental cues, and operational frameworks that promote whole-person care and collaboration.
+Standard 6.2 – Core Spatial Concepts
+	•	Healing Room (Reimagined Waiting Room)
+	•	Serves as the entry into the care experience, transforming waiting into intentional healing.
+	•	Promotes tranquility through lighting, sound, scent, and interactive art.
+	•	Establishes patient dignity and psychological safety from the moment of arrival.
+	•	Symbolizes the shift from passive healthcare to active, whole-person restoration.
+	•	Therapy Room
+	•	A multi-use space where physical reconditioning, motion therapy, and active group care occur.
+	•	Seamlessly transitions between individual and group formats.
+	•	Co-located near auxiliary treatment rooms and adjacent to the Fishbowl for easy provider access.
+	•	Reinforces shared responsibility for function, movement, and wellness goals.
+	•	Fishbowl (Collaborative Workspace)
+	•	A transparent, shared space where providers and care coordinators sit together without hierarchy.
+	•	Encourages real-time observation, informal huddles, collaborative documentation, and open dialogue.
+	•	Replaces isolated offices with a culture of shared leadership—every voice matters, regardless of role.
+	•	Physically embodies UTC’s core values: transparency, trust, and teamwork.
+Standard 6.3 – Training, Orientation, and Replication
+	•	All UTC team members must be oriented to the function and philosophy behind each core space (Healing Room, Therapy Room, Fishbowl).
+	•	New hires and external partners should understand the cultural expectations embedded in the facility design.
+	•	These spaces serve as live teaching environments during onboarding, shadowing, and interdisciplinary training.
+	•	Design templates for these core zones must be replicable across sites, allowing for localized adaptation while preserving UTC identity.
+Standard 6.4 – Design Integration & Accessibility
+	•	Zones must be integrated to support natural flow: patients move from Healing → Therapy or Treatment → Fishbowl-based provider consult.
+	•	Each core area must be accessible to persons with physical, sensory, and cognitive impairments.
+	•	The facility must maintain an open but respectful auditory and visual environment, balancing transparency with privacy.
+Intent Statement
+In UTC, care is not only delivered within a facility—it is shaped by it. The Healing Room promotes healthcare in harmony. The Therapy Room invites active participation. The Fishbowl breaks down silos. Together, these spatial concepts form the experiential backbone of UTC, reinforcing collaboration, compassion, and excellence in every patient and provider interaction.
+Examples
+6.2.a(1) A patient enters the Healing Room and is greeted by natural light, meditative music, and calming visuals. Instead of waiting behind glass, the Patient Concierge (front desk) walks up and welcomes them with eye-level connection and a quiet tone.
+6.2.b(1) A chiropractor and a massage therapist work side-by-side in the Therapy Room with patients rotating between treatment stations and guided stretching.
+6.2.c(1) The Fishbowl sits at the center of the clinic with shared desks for MDs, BH providers, CHWs, and RNs. Team members use mobile carts to chart in the room and huddle without needing to schedule meetings.
+6.3.a(1) During onboarding, new staff are introduced to the Fishbowl as the “engine room” of the UTC model. They shadow care team members to observe the cultural cues embedded in the space.
+6.3.a(2) A visiting team from another location studies the layout as a model to implement in their own site, ensuring fidelity to the UTC standard while making adjustments for their floorplan.
+
+Standard 7 – Contracting
+Standard 7.1 – Contracting Philosophy
+Organizations accredited under the Unitized Transdisciplinary Care (UTC) model must pursue contracting strategies that enable the delivery of whole-person, transdisciplinary care. Contracting arrangements should reflect the principles of value, access, quality, and sustainability, recognizing that payment models play a key role in supporting UTC’s distinctive care methodology.
+Standard 7.2 – Priority of Value-Based Care
+	•	Organizations should prioritize value-based contracts (VBCs) whenever available, as these arrangements most closely align with UTC’s goals of improved outcomes, cost containment, reduced waste, and patient-centered care.
+	•	Value-based arrangements may include shared savings, bundled payments, population health contracts, or other risk-bearing models.
+Standard 7.3 – Fee-for-Service (FFS) with Enhanced Management
+	•	Where value-based contracts are not available, organizations may use fee-for-service agreements augmented with evidence-based, care-coordination codes and services (e.g., Chronic Care Management (CCM), Remote Therapeutic Monitoring (RTM), Behavioral Health Integration (BHI)).
+	•	Facilities must develop utilization management (UM) protocols to ensure these FFS models are applied in ways consistent with UTC principles and avoid overutilization.
+Standard 7.4 – Non-Covered Services
+	•	Non-covered services must be managed in a compliant and transparent manner, consistent with federal, state, and local regulations.
+	•	Patients must be informed of potential financial responsibility for services not covered under their health plan (if allowable).
+	•	Facilities must document clear policies for patient consent, billing, and collections regarding non-covered services.
+Standard 7.5 – Flexibility and Local Adaptation
+	•	Organizations must recognize that contracting will differ based on payor mix, geography, and market readiness for value-based models.
+	•	Each organization should develop a contracting portfolio strategy that supports both near-term operational sustainability and long-term transition toward risk-based care models.
+Intent Statement
+UTC is designed to thrive in value-based care environments. However, accredited organizations must demonstrate the ability to adapt their contracting approach to their market, balancing value-based models, optimized FFS arrangements, and compliant handling of non-covered services. This standard ensures that contracting supports—not undermines—the UTC philosophy of integrated, whole-person care.
+
+Examples
+7.2.a(1) A UTC facility contracts with a Medicaid managed care plan under a shared savings arrangement tied to reduced hospital admissions and improved functional outcomes.
+7.3.a(1) In a commercial FFS market, a UTC program incorporates CCM and RTM codes to sustain its care coordination and remote monitoring functions, supported by local UM policies that guide service frequency.
+7.4.a(1) A UTC facility offers acupuncture, a non-covered service, and provides patients with a Good Faith Estimate and informed consent form before treatment, in compliance with local and federal regulations.
+7.5.a(1) A rural clinic uses a hybrid model: primary value-based Medicaid contracts for its core patient population, supplemented by FFS agreements with commercial carriers for non-Medicaid patients.
+
+Standard 8 – Program Director Responsibilities
+Standard 8.1
+The program director for the Unitized Transdisciplinary Care (UTC) program has the responsibility and authority to guide and direct the following:
+	•	Establishment of the program’s policies and written procedures. Financial planning and decision-making that sustain UTC operations and support value-based care adoption.
+	•	Resource utilization management, including facility, personnel, and technology optimization to achieve unit efficiency.
+	•	Performance measurement and improvement activities, aligned with UTC accreditation standards and quality goals.
+	•	Program development and modification, including adaptation of UTC delivery models to local population needs and payer environments.
+	•	Strategic planning for program growth, scalability, and long-term sustainability.
+	•	Educational activities for program personnel, including onboarding, role-based continuing education, and reinforcement of UTC culture.
+	•	Stakeholder relationship management, including partnerships with payers, referring providers, and community resources.
+	•	Advocacy activities for patients and the UTC model within healthcare systems, communities, and policy environments.
+	•	Development of ongoing relationships with stakeholders such as community-based organizations, employer groups, and regional health collaboratives.
+	•	Marketing and promotion of the program, ensuring accurate representation of UTC principles and value proposition.
+	•	Oversight of compliance and accreditation, ensuring conformance with UTC standards, local/federal regulations, and payer requirements.
+Intent Statement
+The program director retains ultimate accountability for ensuring that operational performance, compliance and strategic initiatives align with UTC’s mission. Responsibilities may be shared with other leaders of the program. This role ensures that the program operates consistently with UTC standards and is positioned for long-term growth, adaptability, and system-level impact.
+Examples
+8.1.c(1) The program director reviews quarterly resource utilization metrics (unit efficiency, exam room use, provider time, care team throughput) to optimize unit scheduling.
+8.1.d(1) A program director leads the site’s quality improvement initiative, integrating UTC outcome metrics (functional restoration, patient engagement, reduction in hospitalizations) into dashboards.
+8.1.h(1) In partnership with a local Medicaid managed care plan, the program director represents UTC’s outcomes at stakeholder forums to build stronger payer alignment.
+8.1.l(1) The program director ensures staff training logs, compliance audits, and accreditation materials are maintained for both UTC accreditation and CARF equivalency (if desired).
+
+Standard 9 – Clinical Champion Responsibilities
+Standard 9.1
+The Clinical Champion for the Unitized Transdisciplinary Care (UTC) program has the responsibility and authority to guide and direct the following:
+	•	Clinical oversight of care delivery, ensuring that all treatment plans reflect UTC’s whole-person, transdisciplinary philosophy.
+	•	Mentorship and peer leadership, supporting adoption of UTC practices among providers and reinforcing cultural and operational standards.
+	•	Review and assurance of clinical adequacy of individual treatment prescriptions and plans, including identification of contraindications and precautions.
+	•	Active participation in clinical service delivery, modeling UTC principles in daily practice.
+	•	Involvement in key operational decisions, including utilization management and workflow improvements.
+	•	Support and promotion of evidence-based practice, encouraging integration of research findings and emerging best practices into daily care.
+	•	Performance improvement leadership, driving continuous improvement efforts with a focus on the quadruple aim:
+	•	Access (timely care and reduced wait times)
+	•	Quality (evidence-based, whole-person outcomes)
+	•	Experience (patient and provider satisfaction)
+	•	Cost (efficiency, reduced waste, value creation)
+	•	Education and training, leading clinical in-services, mentoring new providers, and ensuring competencies across the team.
+	•	Ensuring that the UTC Standards continue to align with industry standards from respective disciplines.
+	•	Stakeholder engagement, representing clinical priorities in conversations with payers, regulators, and community partners.
+	•	Advocacy for the UTC model and its impact on improving population health, equity, and care integration.
+Intent Statement
+The Clinical Champion is the clinical face and cultural driver of UTC within each facility. While the Program Director is accountable for operational and strategic oversight, the Clinical Champion ensures that care delivery remains true to UTC standards, models collaborative practice, and leads peers in continuous improvement. This role bridges leadership and frontline care, embedding UTC into daily operations.
+Examples
+9.1.b(1) A Clinical Champion mentors a new behavioral health provider by demonstrating how to integrate care plans with physical reconditioning staff during a unit rotation.
+9.1.f(1) The Clinical Champion introduces a new evidence-based approach to chronic pain management, ensuring all staff are trained in its application.
+9.1.g(1) Using quarterly data, the Clinical Champion identifies an increase in time-to-therapy and leads a rapid-cycle improvement project to reduce delays.
+9.1.i(1) The Clinical Champion participates in a payer roundtable to present UTC outcome data demonstrating reduced ER utilization and improved function in a Medicaid population.
+
+Standard 10 – Clinical Champion Qualifications
+Standard 10.1
+The Clinical Champion for the Unitized Transdisciplinary Care (UTC) program:
+	•	Is certified in a specialty area by a nationally recognized board.
+	•	Preferred specialties include Physical Medicine & Rehabilitation (PM&R), Internal Medicine, Primary Care, or Family Medicine due to their alignment with whole-person care.
+	•	Other specialties may be considered if the provider demonstrates experience and commitment to the UTC model.
+	•	Demonstrates appropriate experience and training to provide leadership in whole-person, transdisciplinary care through one of the following:
+	•	A minimum of two years’ experience as a collaborative team member in a whole-person, interdisciplinary or transdisciplinary care program.
+	•	If less than two years’ experience, participation in a mentorship program that delineates the:
+	•	Intensity of collaboration required with an experienced Clinical Champion.
+	•	Length of collaboration required before assuming independent responsibilities.
+	•	Maintains:
+	•	An unrestricted license to practice medicine in the jurisdiction of the program.
+	•	Board certification in their specialty area.
+	•	Clinical privileges in the organization, if applicable.
+	•	Participates in active clinical practice relevant to the population served, demonstrating leadership through daily patient care.
+	•	Demonstrates currency in clinical practice concerning the persons served, including whole-person, evidence-based approaches to assessment, treatment, and ongoing management.
+	•	Demonstrates active learning and involvement in the professional community, such as:
+	•	Specialty certification or subspecialty training.
+	•	Participation in continuing medical education (CME).
+	•	Engagement with professional associations, grand rounds, or quality improvement collaboratives.
+	•	Leadership or contribution to research or clinical demonstration projects related to whole-person care.
+Intent Statement
+UTC requires that the Clinical Champion be a qualified, board-certified provider with relevant experience in whole-person care. This role must embody both clinical leadership and cultural stewardship, ensuring fidelity to UTC principles while maintaining clinical excellence. While PM&R, Internal Medicine, Primary Care, and Family Medicine are ideally suited to this role, organizations may appoint other specialties if the candidate demonstrates the competencies and training necessary to lead within UTC.
+Examples
+10.1.b(1) A PM&R physician with 3 years’ experience in an interdisciplinary pain and functional restoration program is appointed as Clinical Champion.
+10.1.b(2) A Family Medicine APP with less than 2 years’ UTC experience participates in a 12-month mentorship under an established Clinical Champion before assuming full responsibility.
+10.1.e(1) A Clinical Champion attends CME events on whole-person care and implements updated protocols for integrating behavioral health and chronic disease management.
+
+Standard 11 – Transdisciplinary Team (Non-Physician) Qualifications
+Standard 11.1 – Qualifications and Competency
+Each member of the transdisciplinary team, other than the Clinical Champion, must:
+	•	Meet one of the following criteria:
+	•	The equivalent of one year of full-time experience in a transdisciplinary or interdisciplinary care program.
+	•	If less than the equivalent of one year of experience, participation in a mentorship program that delineates:
+	•	The intensity of collaboration required with an experienced team member.
+	•	The length of collaboration required with an experienced team member.
+	•	The need for discipline-specific mentorship to ensure competency.
+	•	Maintain applicable state licensure, certification, or registration consistent with their role (e.g., NP, PA, DC, LCSW, LMFT, RD, Acupuncturist, Massage Therapist, RN, LVN, CHW, Care Coordinator).
+	•	Demonstrate continuing competence through active learning, professional development, and engagement with the professional community.
+	•	Function as a collaborative team member who contributes consistently and meaningfully to unitized care delivery, rather than serving in a siloed or consult-only capacity.
+Standard 11.2 – Core Competencies Across All Roles
+Each non-physician provider on the UTC team must demonstrate:
+	•	Ability to contribute to whole-person, dimensional care planning (biological, psychological, social, spiritual, economic, functional).
+	•	Skills in both individual and group care delivery, consistent with UTC’s unit-based scheduling.
+	•	Competence in patient engagement, education, and motivation toward self-management.
+	•	Commitment to accurate, timely, and complete documentation (within established timelines, e.g., 72 hours).
+	•	Adherence to UTC culture: compassion, equity across disciplines, and shared accountability for outcomes.
+Standard 11.3 – Role-Specific Minimum Qualifications
+UTC recognizes the following categories of non-physician transdisciplinary team members and their essential qualifications:
+	•	Advanced Practice Providers (NP/PA): Licensed in state of practice, accredited graduate program, may prescribe/perform procedures within privileges.
+	•	Chiropractor (DC): State licensure, accredited degree program, competency in structural and functional restoration.
+	•	Naturopathic Doctor (ND): State licensure, accredited ND program, ability to prescribe/dispense natural and supplemental therapies.
+	•	Acupuncturist (LAc): State licensure, accredited program, competency in acupuncture, herbal therapies, and related modalities.
+	•	Registered Dietitian (RD): State registration, accredited program, ability to assess, plan, and provide Medical Nutrition Therapy (MNT) for chronic disease management.
+	•	Massage Therapist (CMT): Certification in state of practice, competency in therapeutic massage, adjunctive modalities, and patient instruction.
+	•	Behavioral Health Provider (LCSW, LMFT, Psychologist): State licensure, accredited graduate or doctoral program, competencies in psychotherapy, assessment, and behavioral activation.
+	•	Nurse Care Manager (RN/LVN): Licensure in state of practice, experience in care coordination, ability to supervise assistants and manage medication/injection administration.
+	•	Care Coordinator (LVN/MA/CHW): Certification/licensure as applicable, experience in patient outreach and care navigation, ability to document care plans and follow-up actions.
+	•	Community Health Worker (CHW): Training or certification where required; lived experience and cultural competency valued.
+Intent Statement
+UTC requires that non-physician providers demonstrate licensure, experience, and the cultural and functional competencies needed to succeed in a transdisciplinary model. Providers who are new to UTC must complete a structured mentorship process to ensure readiness. This ensures all team members, regardless of role, operate as equal partners in care, focused on whole-person outcomes rather than discipline-specific silos.
+Examples
+11.1.a(2)(a) A newly hired massage therapist with less than one year of interdisciplinary experience shadows a senior PT and Behavioral Health provider for the first three months to learn UTC’s integrated care flow.
+11.2.a(1) A dietitian delivers group nutrition education in the Small Group Room, aligning content with physical reconditioning and behavioral activation goals set by the team.
+11.3.b(1) An NP joins the team with prescribing privileges and co-leads a case review with the Clinical Champion, integrating medical, behavioral, and functional needs into a single care plan.
+11.3.d(1) A CHW works alongside the Nurse Care Coordinator to address SDoH barriers, including housing and transportation, and documents interventions directly into the shared care plan.
+
+
+Standard 12 – Program Timing (Cyclical Delivery)
+Standard 12.1 – Program Structure
+The Unitized Transdisciplinary Care (UTC) program is organized into a one-year structured course of care, delivered through 12-week cycles. Each cycle consists of three four-week periods, which are further divided into unitized visits.
+	•	A unit is approximately 2.5 hours in length, allowing the patient to access multiple services during a single episode of care.
+	•	Care intensity is tailored to the patient’s stage in the program and evolving clinical needs.
+	•	At the end of each cycle, the care team completes a formal reassessment and adjusts the care plan accordingly.
+Standard 12.2 – Initial Cycle and Engagement
+During the first cycle, the program emphasizes patient engagement and building trust.
+Assuming facility capacity exists, units can be scheduled weekly during the first period (first four weeks), supporting:
+	•	Comprehensive work-up of biopsychosocial-spiritual conditions.
+	•	Data collection for baseline measures.
+	•	Establishment of team-based goals.
+	•	Strong therapeutic alliance through high-frequency visits.
+	•	Subsequent units in Cycle 1 may transition to bi-weekly scheduling as clinically appropriate.
+Standard 12.3 – Subsequent Cycles
+	•	The second cycle often continues with bi-weekly units, transitioning to one unit per period (every four weeks) by the end of the cycle.
+	•	Later cycles typically maintain a reduced frequency of visits, consistent with patient needs, treatment focus, and care team recommendations.
+	•	At each cycle, care plans are updated to reflect progress, barriers, and revised goals.
+Standard 12.4 – Focus of Each Cycle
+	•	Each cycle emphasizes a primary treatment axis (biological/physical, psychological/emotional, or social/relational) depending on patient goals and needs.
+	•	While one axis receives intensified services, the other dimensions continue with maintenance-level support.
+	•	Example: A patient with moderate depression and chronic low back pain may receive intensive psychotherapy during Cycle 1 while continuing group physical exercise to maintain function.
+Standard 12.5 – Best Achievable Outcome (BAO)
+	•	The program aims to achieve the best achievable outcome (BAO) for each patient, defined as the optimal state of health across biopsychosocial conditions and health determinants.
+	•	The care team considers comorbidities, interdependencies of conditions, and patient preferences when designing treatment paths.
+	•	The preferred treatment path achieves BAO at the lowest cost and shortest reasonable timeframe.
+	•	In progressive or degenerative conditions, goals may shift toward maintenance and delay of decline.
+Standard 12.6 – Continuous Reassessment
+Throughout the program, patients undergo:
+	•	Ongoing assessment of biopsychosocial-spiritual conditions.
+	•	Review of health determinants (economic, environmental, functional).
+	•	Evaluation of service effectiveness toward short-, medium-, and long-term goals.
+	•	Adjustments to services and providers as needed.
+	•	Ad hoc assessments may be triggered by patient concerns, provider observations, or test results to adjust care mid-cycle.
+Standard 12.7 – Wellness Cycle
+	•	Upon completion of the initial one-year program, patients may continue in a Wellness Cycle, designed to provide ongoing coordination of care for their complex needs.
+	•	The Wellness Cycle maintains longitudinal support for health goals, lifestyle improvements, and condition management.
+	•	If a patient experiences an acute exacerbation or new clinical event, their care plan may transition back to a more intensive cycle and progress accordingly.
+	•	This ensures the program remains adaptive and personalized over time, offering a pathway for sustained engagement while supporting acute or chronic changes in health status.
+Intent Statement
+UTC’s cyclical delivery model provides a structured yet adaptable framework for complex care. The 12-week cycle length is grounded in research on habit formation and allows for measurable goal-setting, reassessment, and recalibration. By offering a Wellness Cycle, the program supports continuity of care beyond the initial year, ensuring that patients with chronic or complex conditions remain engaged, stabilized, and supported in their health goals. The cyclical model ensures UTC can be intimately tuned to the needs of each patient over time.
+
+Examples
+12.2.a(1) A patient begins the program with weekly units in Period 1, completing a full biopsychosocial work-up and engaging with the behavioral health, physical reconditioning, and dietetic providers.
+12.3.a(1) By Cycle 2, the same patient transitions to bi-weekly units, focused primarily on physical reconditioning, while continuing maintenance-level behavioral health support.
+12.4.a(1) A patient with severe depression but mild chronic pain focuses primarily on individual psychotherapy during Cycle 1, with concurrent group-based exercise to maintain function.
+12.5.a(1) A patient with degenerative spine disease receives progressive care planning where the team sets goals to maximize function and delay decline, rather than full resolution.
+12.6.a(1) An ad hoc assessment is triggered after an acute flare-up of anxiety, resulting in the addition of short-term group counseling to the care plan during the current cycle.
+12.7.a(1) After completing the initial one-year program, a patient with chronic low back pain and diabetes continues in a Wellness Cycle with quarterly unit visits. When the patient later experiences a flare in depression, their care plan reverts to a more intensive cycle with bi-weekly behavioral health visits.
+
+Standard 13 – Admissions Process
+Standard 13.1 – Defined Admissions Process
+The Unitized Transdisciplinary Care (UTC) program must maintain a clearly defined admissions process that ensures:
+	•	Consistency across all patients entering the program.
+	•	Transparency in eligibility criteria.
+	•	Patient readiness for participation in the Induction Phase of UTC.
+	•	Collection of information necessary to establish a comprehensive, individualized care plan.
+Standard 13.2 – Admission Criteria
+The program must establish and communicate admission criteria that include:
+	•	Clinical appropriateness for UTC (complex, multi-dimensional care needs).
+	•	Willingness and ability of the person served to participate in unit-based, team-delivered care.
+	•	Identification of any contraindications that may preclude or limit specific services (e.g., severe osteoporosis for chiropractic care, schizophrenia for group psychotherapy, or uncontrolled hypertension for intensive exercise therapy).
+	•	Consideration of payer and contractual requirements, when applicable.
+Standard 13.3 – Whole Person Dimensional Needs Based Assessment
+As part of the admissions process, each patient completes the Whole Person Dimensional Needs Based Assessment, which documents baseline information across all dimensions of the whole person:
+	•	Biological/Physical – chronic conditions, pain, disability, genetic factors.
+	•	Psychological/Emotional – mental health status, trauma history, resilience.
+	•	Social/Relational – caregiver roles, family systems, peer/community supports.
+	•	Spiritual/Existential – values, faith, purpose, and meaning.
+	•	Economic/Environmental – housing, food, finances, transportation, safety.
+	•	Functional/Vocational – ADLs/IADLs, independence, work roles, return-to-work readiness.
+The Dimensional Needs Based Assessment is designed to:
+	•	Establish baseline measures for each dimension.
+	•	Inform the transdisciplinary care plan.
+	•	Identify priority treatment axes for the initial 12-week cycle.
+	•	Meet the requirements of evidenced-based treatment for standards of care and payer-specific requirements. 
+	•	Attain informed consent.
+Standard 13.4 – Contraindication Discovery
+The admissions process must include structured screening to identify potential contraindications to program participation or specific interventions, including but not limited to:
+	•	Medical contraindications (e.g., osteoporosis for chiropractic adjustments, cardiac instability for high-intensity exercise).
+	•	Psychological contraindications (e.g., acute psychosis or uncontrolled schizophrenia for group therapy).
+	•	Medication-related risks (e.g., anticoagulants for invasive procedures).
+If contraindications are discovered:
+	•	Alternative services must be identified where possible.
+The care team must include mitigation strategies.
+	•	The patient is informed of risks and adaptations to the care plan.
+Standard 13.5 – Patient Orientation to UTC
+The admissions process must include:
+	•	A structured orientation to UTC philosophy, expectations, and participation requirements.
+	•	Education on the Induction Phase, unit-based care, and cyclical delivery model.
+Clear communication of patient rights, expectations, and informed consent.
+	•	Introduction to technology tools (Savas Patient Portal, patient engagement tool, or other platforms as used).
+Standard 13.6 – Formal Induction Phase
+Upon completion of admissions, patients are prepared to enter the Induction Phase, characterized by:
+	•	High-frequency, relationship-focused visits.
+	•	Detailed baseline data collection and care plan formulation.
+	•	Team-based goal setting and patient engagement.
+Intent Statement
+The UTC admissions process ensures that every patient begins the program with a comprehensive understanding of expectations, a clear baseline assessment, and an individualized plan tailored to their whole-person needs. By incorporating the Whole Person Dimensional Needs Based Assessment and contraindication discovery into admissions, UTC ensures that care is both inclusive and safe. The admissions process serves as the foundation for patient engagement, preparing individuals for success in the Induction Phase and throughout the cyclical program.
+
+Examples
+13.2.c(1) A patient with advanced osteoporosis is identified during admissions; chiropractic manipulation is excluded from their care plan, and physical therapy is prioritized instead.
+13.3.a(1) A patient completes the Whole Person Dimensional Needs Based Assessment, which reveals poorly controlled diabetes (Biological), housing insecurity (Economic), and caregiver strain (Social). These domains become focal points for the initial 12-week cycle.
+13.4.a(1) A patient with schizophrenia is contraindicated for group psychotherapy. The admissions process adapts their plan to emphasize one-on-one behavioral health visits.
+13.5.a(1) During admissions orientation, patients are introduced to UTC’s philosophy of whole-person care, shown how units are structured, and enrolled in a patient engagement platform to track progress.
+13.6.a(1) Following admissions, a patient begins the Induction Phase with weekly units, meeting the full team and establishing trust and buy-in during the first four weeks.
+
+Standard 14 – Dimensional Needs Based Assessment
+Standard 14.1 – Comprehensive Initial Evaluation
+Prior to the initiation of treatment, each person served must undergo a Dimensional Needs Based Assessment (DNBA). This assessment provides a comprehensive baseline across all dimensions of the whole person and informs the transdisciplinary care plan.
+Standard 14.2 – Required Components
+The DNBA must include:
+	•	Medical Evaluation
+	•	History and physical examination by a qualified provider.
+	•	Review of chronic conditions, comorbidities, and prior treatments.
+	•	Identification of contraindications to UTC services (e.g., osteoporosis for chiropractic care, anticoagulant use for injections).
+	•	Psychological/Emotional Evaluation
+	•	History of mental health conditions, trauma, and resilience factors.
+	•	Standardized psychological assessment or screening (as appropriate).
+	•	Identification of risks such as suicidality, substance misuse, or psychiatric instability.
+	•	Diagnoses and care plan goals.
+	•	Social/Relational Evaluation
+	•	Family structure, caregiver roles, and support networks.
+	•	Assessment of relational stressors, social isolation, or domestic violence risks.
+	•	Spiritual/Existential Evaluation
+	•	Exploration of values, faith, meaning, and purpose.
+	•	Identification of resources or barriers related to existential well-being.
+	•	Economic/Environmental Evaluation
+	•	Housing stability, food security, transportation, employment, and financial stressors.
+	•	Review of safety risks in the home or community environment.
+	•	Functional/Vocational Evaluation
+	•	Assessment of Activities of Daily Living (ADLs) and Instrumental ADLs (IADLs).
+	•	Vocational status and readiness to return to work or meaningful roles.
+	•	Functional capacity testing as appropriate.
+Standard 14.3 – Contraindication Review
+The DNBA must include structured screening to document contraindications that may limit participation in specific UTC services, such as:
+	•	Medical (e.g., cardiac instability for high-intensity exercise).
+	•	Psychological (e.g., acute psychosis for group therapy).
+	•	Medication-related (e.g., bleeding risk for invasive procedures).
+Standard 14.4 – Treatment Plan Foundation
+Findings from the DNBA must:
+	•	Establish baseline conditions for each dimension of care.
+	•	Define short-, medium-, and long-term goals.
+	•	Identify the primary treatment axis (biological, psychological, or social) for the initial cycle.
+	•	Serve as the foundation for the patient’s transdisciplinary care plan.
+Standard 14.5 – Documentation and Communication
+	•	The DNBA must be documented in the health record within established timeframes.
+	•	Results must be communicated to the transdisciplinary team before the start of the Induction Phase.
+	•	Patients must be oriented to their assessment findings and engaged in shared goal-setting.
+Intent Statement
+The Dimensional Needs Based Assessment ensures that every person entering the UTC program begins with a comprehensive, whole-person evaluation. By addressing medical, psychological, social, spiritual, economic, and functional dimensions, UTC establishes a baseline and trajectory for individualized care. This process ensures safe participation, personalized care planning, and alignment with patient goals from the outset.
+Examples
+14.2.a(1) A medical evaluation identifies a history of hypertension and chronic low back pain, requiring adaptations to exercise therapy.
+14.2.b(1) A psychological assessment reveals moderate depression and high stress, leading to prioritization of behavioral health in the initial cycle.
+14.2.e(1) An economic/environmental evaluation documents food insecurity; a CHW initiates referrals to local food assistance programs.
+14.3.a(1) A contraindication review reveals a patient is on anticoagulant therapy; invasive interventional procedures are deferred, and care is redirected to conservative modalities.
+14.4.a(1) The DNBA identifies social isolation as a primary barrier; the initial cycle emphasizes group therapy for engagement and relational support.
+
+Standard 15 – Initial & Ongoing Assessments
+Standard 15.1 – Purpose
+UTC programs must conduct initial and ongoing assessments that evaluate the person’s progress across all whole-person dimensions, inform care plan updates, and ensure treatment remains safe, effective, and aligned with patient goals.
+Standard 15.2 – Initial Assessments
+At the start of the program (following admissions and the Dimensional Needs Based Assessment), initial assessments must document:
+	•	Risks
+	•	Medication-related behavior (e.g., adherence, diversion, misuse).
+	•	Substance use or misuse (alcohol, illicit drugs, prescription misuse).
+	•	Suicide or self-harm risk.
+	•	Violence or harm to others.
+	•	Other risks relevant to health, safety, or participation.
+	•	Medical/Functional Status
+	•	Limiting pain conditions or other diagnoses.
+	•	Presence of comorbidities.
+	•	Functional limitations in ADLs/IADLs.
+	•	Influencing Factors
+	•	Social determinants of health (housing, food, transport, finances).
+	•	Active or pending litigation related to health conditions.
+	•	Upcoming or potential surgical interventions.
+	•	Willingness and ability to participate in the UTC program.
+	•	Other factors that may impact participation or outcomes.
+Standard 15.3 – Ongoing Assessments
+Throughout the program, patients must be reassessed to:
+	•	Monitor and document changes in biopsychosocial-spiritual conditions.
+	•	Track progress toward short-, medium-, and long-term goals.
+	•	Evaluate service effectiveness (access, quality, experience, cost).
+	•	Update the care plan and treatment focus for the next cycle.
+	•	Identify and address new risks, comorbidities, or contraindications.
+Assessments should occur:
+	•	At the end of each 12-week cycle as part of care plan recalibration.
+	•	At major transition points (e.g., moving from Induction to Maintenance, or Maintenance to Wellness Cycle).
+	•	Ad hoc, when triggered by patient concerns, provider observations, or abnormal test results.
+Standard 15.4 – Use of Data
+	•	Assessment data must inform shared decision-making with the patient.
+	•	Data should be aggregated for quality improvement and reviewed by the Clinical Champion and Program Director.
+	•	Outcomes should guide population-level insights (e.g., functional improvements, reduced hospitalizations).
+Intent Statement
+UTC requires structured, continuous assessment to ensure care is responsive, evidence-based, and safe. By incorporating initial, ongoing, cyclical, and ad hoc assessments, the program ensures that care plans remain dynamic, patient-centered, and tuned to evolving needs. Assessments also support accountability for outcomes under both value-based and FFS arrangements.
+Examples
+15.2.a(1) At intake, a patient is screened for opioid misuse using validated tools, the result guides pain management planning.
+15.2.c(1) A patient’s admission evaluation reveals pending spinal surgery; their care plan is adjusted to focus on pre-surgical conditioning.
+15.3.a(1) At the end of Cycle 1, reassessment shows improved depression scores but worsening diabetes control; the second cycle shifts focus to nutritional and metabolic management.
+15.3.e(1) During a Wellness Cycle, a patient presents with new chest pain; an ad hoc assessment triggers referral to cardiology and a return to more intensive UTC cycles.
+15.4.a(1) Quarterly aggregate data show high dropout among patients with housing instability; the Clinical Champion leads a QI initiative to enhance CHW resource integration.
+
+Standard 16 – Chronic Opioid Use
+Standard 16.1 – Purpose
+UTC programs must address chronic opioid use in a manner that is evidence-based, person-centered, and integrated into the whole-person care plan. The approach must emphasize safety, functional restoration, and long-term health goals.
+Standard 16.2 – Required Elements
+For each patient with chronic opioid use, the UTC program must include:
+	•	Tapering Plans
+Development of individualized tapering strategies as appropriate, consistent with clinical guidelines.
+	•	Use of behavioral, functional, and integrative modalities to support reduction of reliance on opioids.
+	•	Medical Comorbidities
+	•	Assessment of concurrent conditions (e.g., sleep apnea, COPD, metabolic syndrome) that increase opioid risk.
+Monitoring interactions with other prescribed medications.
+	•	 Mental Health Needs
+	•	Screening for depression, anxiety, PTSD, substance use disorders, and suicidality.
+	•	Integration of behavioral health interventions into the taper plan.
+	•	 Psychosocial Factors
+	•	Evaluation of patient fears, expectations, and readiness for change.
+	•	Involvement of family/support systems where appropriate.
+	•	Addressing external pressures such as litigation, employment, or disability benefits.
+	•	 Patient Education
+	•	Ongoing education on the risks, benefits, and alternatives to opioid use.
+	•	Shared decision-making around tapering strategies, emphasizing trust and respect.
+Standard 16.3 – Care Team Approach
+The transdisciplinary team must coordinate medical, behavioral, and functional support during tapering or maintenance.
+	•	Alternative modalities (e.g., PT/OT, behavioral activation, acupuncture, mindfulness, group therapy) should be incorporated to replace or reduce reliance on opioids.
+	•	Care managers must monitor adherence, coordinate follow-up, and ensure patient engagement.
+Standard 16.4 – Documentation
+The program must document:
+	•	Tapering plans, progress, and modifications.
+	•	Comorbidities and their management strategies.
+	•	Behavioral health and psychosocial interventions integrated into the opioid care plan.
+	•	Patient education provided and patient’s expressed goals/preferences.
+Intent Statement
+UTC recognizes chronic opioid use as a complex, multi-dimensional challenge requiring medical, behavioral, and social interventions. The goal is not solely to taper medication, but to optimize safety, restore function, and improve quality of life. The UTC model leverages its transdisciplinary framework to ensure opioid management is never siloed but always integrated into the broader care plan.
+Examples
+16.2.a(1) A patient on long-term oxycodone is placed on a taper plan supported by weekly group behavioral therapy and bi-weekly PT sessions to improve function.
+16.2.c(1) A behavioral health provider screens a patient for opioid misuse and identifies concurrent depression; antidepressant therapy and CBT are added to the care plan.
+16.2.d(1) A patient expresses fear of tapering due to anticipated withdrawal; the care team educates the patient, engages family members, and uses mindfulness training to ease the process.
+16.3.a(1) The Clinical Champion coordinates with the pharmacist, care manager, and behavioral health provider to monitor opioid reduction progress and adjust the plan as needed.
+16.4.a(1) Documentation shows that a patient declined tapering at intake; the care plan is updated quarterly to reflect ongoing education and patient preferences while reinforcing functional goals.
+
+Standard 17 – Process and Procedures for Initial & Ongoing Assessments
+Standard 17.1 – Purpose
+UTC-accredited programs must maintain structured processes and procedures for both initial and ongoing assessments to ensure care is individualized, evidence-based, and responsive to patient needs across all dimensions of the whole person.
+Standard 17.2 – Documentation of Initial and Ongoing Assessments
+Assessments must include documentation of the following:
+	•	 Methods Used
+	•	Activities conducted (interviews, physical exams, functional tests, psychosocial screenings, etc.).
+	•	Measured results achieved (lab values, standardized scores, performance metrics).
+	•	Validated tools, instruments, or tests appropriate to complex care populations (e.g., PHQ-9, Oswestry Disability Index, MoCA, SDoH screening tools).
+	•	Analysis of Findings
+	•	Patient’s response to assessments.
+	•	Resolution of conflicting data or opinions among team members.
+	•	Responses to:
+Referral questions (e.g., from primary care, payer, or specialty consultation).
+	•	Stakeholder questions (e.g., family, case manager, employer).
+Standard 17.3 – Cycle-Based Integration
+	•	Assessments must be incorporated into the 12-week cycle framework and reviewed formally at the end of each cycle.
+	•	Reassessments should guide care plan adjustments, treatment frequency, and goal modification.
+	•	Ad hoc reassessments must be triggered when there are significant changes in patient status, acute exacerbations, or clinical team concerns.
+Standard 17.4 – Use of Evidence and Patient Preference
+	•	Assessment procedures must be evidence-based and applied consistently across the program.
+	•	Findings must be interpreted in collaboration with the patient, respecting patient values, readiness for change, and expressed goals.
+Standard 17.5 – Communication of Findings
+	•	Results must be shared across the transdisciplinary team in a timely manner, using the shared health record and unit huddles (SCRUM).
+	•	Summaries of assessments must be explained to the patient in clear, understandable terms.
+	•	Updates must be integrated into the Whole Person Needs Based Assessment framework to track longitudinal progress.
+Intent Statement
+The UTC program requires a structured, transparent process for assessments to ensure that care is guided by reliable data and continuous feedback. By documenting methods, results, and analyses, UTC ensures that patients receive care that is both data-driven and patient-centered. The cyclical integration of assessments guarantees that care plans evolve dynamically as conditions change, comorbidities shift, or goals are met.
+
+Examples
+17.2.a(1) A patient’s baseline includes PHQ-9 (depression), Oswestry (functional impairment), and SDoH screening. These are repeated at the end of each cycle to measure progress.
+17.2.b(1) Conflicting results between self-reported pain severity and functional testing are reconciled by reviewing activity logs and engaging the patient in shared interpretation.
+17.3.a(1) At the end of Cycle 2, assessments show improvement in mood but decline in nutrition; the care plan shifts to emphasize dietitian visits while maintaining BH support.
+17.4.a(1) A patient expresses reluctance to taper opioids despite clinical evidence; assessments are used to educate, document preferences, and adjust goals accordingly.
+17.5.a(1) The care team reviews quarterly assessment data during unit huddles; results are documented in MyOnCare and shared with the patient visually on a dashboard.
+
+Standard 18 – Unit Activity (Flow Coordination)
+Standard 18.1 – Purpose
+UTC programs must deliver care through structured units, designed to maximize patient engagement, provider collaboration, and efficient throughput while ensuring safety and quality. The unit format enables real-time adaptability, balancing individual and group services in alignment with each patient’s transdisciplinary care plan.
+Standard 18.2 – Structure of a Unit
+Each UTC unit must include the following structural elements:
+	•	Duration: Units last approximately 2.5 hours.
+	•	Participants: Standard units accommodate ~8 patients, adjusted for complexity.
+	•	Scrum: Each unit begins with a team huddle, where the care team:
+	•	Reviews changes in patient condition.
+	•	Updates the treatment plan.
+	•	Confirms flow of services.
+	•	Treatment Execution: Patients receive services through a mix of individual and group encounters, coordinated in real time by the Unit Flow Coordinator.
+	•	Rotation: Patients rotate between modalities (medical, behavioral, physical, alternative therapies) after ~60 minutes, with adjustments made based on complexity.
+Standard 18.3 – Triage and Complexity
+	•	High Complexity Patients
+	•	May require longer one-on-one sessions.
+	•	Typically scheduled in smaller cohorts (2–3 patients).
+	•	Focus is on medical or behavioral stabilization, diagnostic work-up, or detailed care planning.
+	•	Low Complexity Patients
+	•	Begin with group therapies (behavioral health, physical reconditioning, nutrition, education).
+	•	Typically scheduled in larger cohorts (5–6 patients).
+	•	Transition to shorter individual sessions as needed.
+Standard 18.4 – Flow Coordination
+	•	A Flow Coordinator manages patient movement and timing within the unit, based on the care plan set during the Scrum.
+	•	Flow coordination ensures that no dimension of care is neglected and that each patient receives the services appropriate to their needs and goals.
+	•	Adjustments are made dynamically, with flexibility to add, extend, or shift services during the unit.
+Standard 18.5 – Efficiency and Throughput
+	•	Unit activity must balance accessibility, complexity, community, and simplicity as illustrated in the UTC Efficiency Matrix.
+Services may be delivered as in-person, combined, or virtual formats, depending on program capabilities and patient needs.
+	•	The goal is to maximize provider time, reduce patient burden, and ensure outcome-driven care.
+Intent Statement
+Unit Activity is the engine of UTC care delivery. By concentrating services into structured units, UTC ensures that patients receive coordinated, multi-dimensional interventions in real time. The model promotes efficiency, fosters patient engagement, and allows the team to adjust dynamically to clinical realities, making care adaptable, scalable, and whole-person centered.
+Examples
+18.2.c(1) A unit begins with Scrum: the medical provider, psychologist, PT, and dietitian review updated vitals, patient progress notes, and adjust the treatment plan before patients transition into sessions.
+18.3.a(1) A high-complexity patient with uncontrolled diabetes and depression is scheduled in a cohort of 3, receiving extended individual medical and behavioral sessions before rotating to group activity.
+18.3.b(1) A low-complexity patient with stable chronic low back pain attends group physical reconditioning for 60 minutes, then transitions to individual chiropractic adjustment.
+18.4.a(1) During the unit, the Flow Coordinator identifies that one patient is showing acute distress; their rotation is adjusted to prioritize a behavioral health session before proceeding to physical reconditioning.
+18.5.a(1) A hybrid unit is held where half the patients attend in-person group reconditioning while others join behavioral group therapy virtually, coordinated seamlessly by the Flow Coordinator.
+
+Standard 19 – Non-Unit Activity (Advanced Primary & Complex Care)
+Standard 19.1 – Purpose
+UTC programs must provide non-unit activities to address identified health needs that fall outside of scheduled unit care. These activities are designed to:
+	•	Close gaps in quality measures (e.g., HEDIS).
+	•	Provide advanced primary care services for complex chronic conditions.
+	•	Ensure continuity of care when patients are unable or unwilling to access external primary care.
+	•	Maintain alignment with payer expectations for gap closure and value-based performance.
+Standard 19.2 – Scope of Non-Unit Activities
+Non-unit activities may include, but are not limited to:
+	•	Preventive screenings (e.g., breast cancer, colon cancer, depression, social needs).
+	•	Chronic condition management (e.g., diabetes A1C, blood pressure control, COPD/asthma, obesity).
+	•	Medication management (e.g., antidepressant adherence, statin therapy, beta blocker after MI).
+	•	Transitions of care (e.g., follow-up after hospitalization).
+	•	Remote patient monitoring (e.g., glucose, blood pressure, weight management).
+	•	Remote therapeutic monitoring (e.g., treatment adherence, medication adherence). 
+	•	Health education, lifestyle counseling, and smoking cessation interventions.
+Standard 19.3 – Care Delivery Approach
+	•	Non-unit activities may be delivered virtually or in-person, depending on patient needs.
+	•	Services must be documented in the patient’s record and integrated into the transdisciplinary care plan.
+These activities must be coordinated with, and not replace, the patient’s existing primary care provider and specialists, when applicable.
+	•	The program must maintain compliance with all state and federal regulations regarding provision of medical care outside traditional primary care.
+Standard 19.4 – Patient Engagement
+	•	Patients must be informed that non-unit activities are part of their UTC program participation.
+	•	The care team must emphasize the importance of gap closure and health maintenance.
+The model leverages UTC’s  high engagement rates to ensure preventive and chronic care is not lost in follow-up.
+Standard 19.5 – Payer & Quality Alignment
+	•	Programs must track and report quality measures associated with non-unit activity.
+	•	Documentation must demonstrate compliance with payer requirements for value-based programs.
+	•	Policies must exist to manage non-covered services in a compliant manner, with informed patient consent.
+Intent Statement
+Non-unit activity ensures UTC programs not only identify unmet health needs but take responsibility for closing the loop. By embedding advanced primary and complex care services into the UTC model, accredited organizations strengthen outcomes, protect payers from penalties, and maintain patient trust. These activities extend UTC’s scope beyond units, making the program a longitudinal partner in complex care.
+Examples
+19.2.a(1) A patient with newly identified uncontrolled diabetes (A1C 9.8) is enrolled into non-unit activity: monthly APP visits and bi-weekly RN/CHW check-ins to manage blood sugars and close the HEDIS diabetes control measure.
+19.2.a(2) A patient declines to follow up with their primary care physician for hypertension; non-unit activity provides remote blood pressure monitoring, nurse coaching, and medication titration to close the care gap.
+19.3.a(1) A patient is hospitalized for pneumonia. Upon discharge, the UTC program conducts a non-unit virtual visit within 7 days to satisfy transition-of-care measures and update the transdisciplinary care plan.
+19.4.a(1) A CHW calls a patient to complete a colon cancer screening order and schedules them for a non-unit lab visit.
+19.5.a(1) A payer partner shares HEDIS gaps; the UTC team aligns non-unit activities to resolve those gaps, preventing financial penalties and improving patient outcomes.
+
+
+Standard 20 – Care Coordination
+Standard 20.1 – Purpose
+The Unitized Transdisciplinary Care (UTC) program must demonstrate coordination of services to ensure that persons served receive care that is timely, comprehensive, and integrated across all whole-person dimensions.
+Standard 20.2 – Internal Coordination
+The program must ensure effective communication and integration of services within its own organization, including:
+	•	Coordination across service lines (medical, behavioral health, physical reconditioning, alternative care, dietetic, care management).
+	•	Regular unit-based Scrum meetings at the start of each treatment block to review patient status, risks, and goals.
+	•	Documentation of care plan updates and service adjustments in the shared health record.
+Standard 20.3 – External Coordination
+The program must coordinate care with other providers and systems as appropriate, including:
+	•	Primary care physicians and specialty providers.
+	•	Hospitals, emergency departments, and post-acute care facilities.
+Payers and community-based organizations (e.g., housing, food, employment support).
+	•	Social service agencies and faith-based or peer-support organizations when relevant.
+Standard 20.4 – Responsibilities of Care Coordination
+Care coordination includes, but is not limited to:
+	•	Ensuring services are sequenced and delivered in accordance with the individualized UTC care plan.
+	•	Facilitating communication across providers and stakeholders.
+	•	Preventing duplication of services or conflicting interventions.
+	•	Supporting smooth transitions between cycles, settings, or levels of care.
+	•	Assisting patients with navigating referrals, authorizations, and follow-up appointments.
+	•	Addressing social determinants of health (SDoH) that impact care plan execution.
+Standard 20.5 – Team Role in Care Coordination
+	•	Care coordination is a shared responsibility of the transdisciplinary team.
+	•	The Care Manager, Flow Coordinator, and CHWs play primary operational roles in ensuring the care plan is carried out.
+	•	Patients and families must be included in coordination efforts, and with consent from the patient, to promote engagement, shared decision-making, and trust.
+Intent Statement
+UTC requires that care coordination be intentional, ongoing, and multi-directional. Coordination is not limited to within the program, but extends to all relevant providers, payers, and community resources. By emphasizing whole-person needs, UTC ensures that care is not fragmented, transitions are seamless, and each patient’s goals are consistently supported across settings and time.
+
+Examples
+20.2.a(1) During the unit Scrum, the team identifies a patient with worsening depression; the care plan is updated, and the Flow Coordinator adjusts the patient’s unit activities to prioritize behavioral health that day.
+20.3.a(1) A patient discharged from the hospital after pneumonia receives a non-unit follow-up visit, and the UTC care manager communicates results to both the PCP and the payer to satisfy transition-of-care measures.
+20.4.a(1) A CHW identifies transportation barriers to attending physical therapy; care coordination arranges a ride service and updates the care plan accordingly.
+20.5.a(1) The Care Manager and Flow Coordinator work together to ensure a patient moves smoothly between group PT, a dietetic session, and a behavioral health appointment within the same unit.
+
+Standard 21 – Stakeholder Communication
+Standard 21.1 – Purpose
+The Unitized Transdisciplinary Care (UTC) program must maintain structured processes to communicate with relevant stakeholders regarding each patient’s care. Communication must occur at critical points in the care journey and be documented in the health record.
+Standard 21.2 – Required Communication Points
+The program must communicate with relevant stakeholders:
+	•	At admission – sharing the initial care plan, baseline findings, and identified risks or needs.
+	•	At significant changes in the status of the person served – including acute events, exacerbations, or major care plan modifications.
+	•	At discharge or transition – summarizing progress, ongoing needs, and next steps.
+Standard 21.3 – Stakeholders
+Relevant stakeholders may include:
+	•	Primary care and specialty providers.
+	•	Payers, including case managers and quality improvement representatives.
+	•	Employers, when appropriate and with patient consent.
+	•	Family and support system members identified by the patient.
+	•	Community-based organizations involved in addressing SDoH.
+Standard 21.4 – Modes of Communication
+	•	Communication may occur via secure electronic health record messaging, telehealth platforms, payer portals, or written summaries.
+	•	In-person case conferences, family meetings, or team huddles may be used when appropriate.
+	•	Patient consent and privacy standards must always be maintained in accordance with applicable laws and regulations.
+Standard 21.5 – Documentation
+	•	All stakeholder communications must be documented in the patient’s health record.
+	•	The record must note the content of the communication, the stakeholder(s) involved, and the outcome of the exchange.
+Intent Statement
+UTC emphasizes that care does not occur in isolation. Clear and timely communication with stakeholders ensures continuity, closes gaps in care, and aligns the UTC program with payer and regulatory expectations. By embedding stakeholder communication into the care process, UTC supports shared accountability, trust, and seamless transitions across the continuum.
+
+Examples
+21.2.a(1) At admission, the UTC care team sends a summary of the patient’s Whole Person Needs Based Assessment (WPNBA) and initial UTC care plan to the primary care provider and payer case manager.
+21.2.b(1) When a patient experiences an acute pain flare and requires ED transfer, the UTC care manager documents the event and notifies the payer case manager within 48 hours.
+21.2.c(1) At discharge, the UTC program provides a final care plan summary to the patient’s PCP, highlighting medication changes, completed screenings, and ongoing behavioral health needs.
+21.3.a(1) A patient with diabetes authorizes communication with their employer for work accommodations; the UTC care manager provides documentation of functional restrictions.
+21.4.a(1) The care team hosts a family conference via Microsoft Teams to explain the care plan and answer caregiver questions about medication tapering.
+
+
+Standard 22 – 24/7 Access to Care
+Standard 22.1 – Purpose
+The Unitized Transdisciplinary Care (UTC) program must ensure that persons served have access to appropriate medical consultation and care coordination 24 hours a day, 7 days a week. This access is essential to maintaining safety, continuity, and responsiveness to urgent needs outside of scheduled unit activity.
+Standard 22.2 – Access Requirements
+The program must maintain procedures that guarantee:
+Availability of medical consultation by a licensed provider at all times, either directly or through established on-call arrangements.
+	•	Clear communication protocols so patients know how to access urgent support.
+	•	Coverage for acute needs such as worsening pain, behavioral health crises, or medication-related concerns.
+	•	Appropriate triage processes to direct patients to emergency services (e.g., ED, 911) when clinically necessary.
+Standard 22.3 – Modes of Access
+Access may include:
+	•	A dedicated phone line with on-call provider coverage.
+	•	Secure patient portal or telehealth system for messaging or urgent virtual visits.
+	•	Partnerships with urgent care centers, hospitals, or other designated providers educated on UTC patients’ needs.
+Standard 22.4 – Responsibilities of the Care Team
+	•	The Care Manager or designated staff ensures after-hours inquiries are triaged and communicated to the transdisciplinary team.
+	•	The Clinical Champion is responsible for ensuring coverage arrangements are safe, adequate, and aligned with program policies.
+	•	All contacts and outcomes must be documented in the patient’s health record.
+Intent Statement
+UTC emphasizes that patients with complex, chronic needs often face acute or unpredictable events. By guaranteeing 24/7 access to care, the program ensures patient safety, timely intervention, and continuity across the care cycle. This standard supports trust, engagement, and payer expectations for high-quality, responsive care.
+Examples
+22.2.a(1) A patient calls after-hours with chest pain. The on-call provider triages the patient immediately to emergency services and notifies the UTC care team for follow-up the next day.
+22.3.a(1) A patient portal message sent at 10pm regarding worsening depression triggers a virtual check-in by the on-call behavioral health provider, preventing an ED visit.
+22.4.a(1) The Care Manager documents all after-hours contacts, ensuring updates are reviewed at the next unit Scrum meeting for care plan adjustment.
+
+
+Standard 23 – Drug Screening Procedures
+Standard 23.1 – Purpose
+UTC programs must maintain written procedures for drug screening that support safe prescribing, early detection of risks, and patient-centered management of opioid and non-opioid medications. Screening must balance clinical necessity, patient dignity, and compliance with applicable regulations.
+Standard 23.2 – Required Elements of Procedures
+Written procedures for drug screening must include:
+	•	Informed consent – Patients must be informed about the role of drug screening in their care, including rationale, risks, and implications of results.
+	•	Frequency of screening – Frequency must be based on patient risk level and consistent with current clinical guidelines (e.g., CDC 2022), with more frequent testing for higher-risk patients and less frequent for stable/low-risk patients.
+	•	Individualization – The program must allow for flexibility based on clinical judgment, patient engagement, and identified risk factors.
+	•	Interpretation of results – Results must be interpreted within the clinical context, with confirmatory testing for unexpected findings or suspected false results.
+	•	Actions based on results – Programs must have a defined process for addressing inconsistent or concerning results, including documentation, corrective action, and patient-centered discussion.
+	•	Education – Ongoing education must be provided for patients, staff, and relevant stakeholders on the role of drug screening in whole-person care.
+Standard 23.3 – Clinical Integration
+	•	Drug screening must be integrated into the Whole Person Needs Based Assessment (WPNBA) and ongoing monitoring, not treated as a standalone measure.
+	•	Results must inform, but not solely determine, opioid prescribing or discontinuation.
+	•	Screening should be paired with behavioral health, care management, and addiction support resources as needed.
+Standard 23.4 – Risk-Based Approach
+	•	Programs must use validated tools (e.g., Opioid Risk Tool, history of aberrant behavior) to stratify patients into low-, moderate-, and high-risk categories.
+	•	Higher-risk patients must have more frequent screenings and monitoring.
+	•	All aberrant behaviors (e.g., inconsistent screens, repeated early refill requests, diversion concerns) must be documented and addressed through a structured corrective process.
+
+tandard 23.5 – Patient-Centeredness
+	•	Screening must be conducted in a respectful, non-punitive manner.
+	•	Patients should understand that screening is designed to improve safety and effectiveness, not to stigmatize or punish.
+Inconsistent results should trigger engagement, counseling, and clinical review before alternative measures are considered.
+Intent Statement
+UTC programs recognize that drug screening is a vital safety and quality measure in the management of patients with persistent pain and complex care needs. This standard ensures that screening is evidence-based (CDC 2022), risk-stratified, and patient-centered. By embedding drug screening into whole-person care and transdisciplinary coordination, UTC facilities protect patient safety, support payers and regulators, and reinforce trust and transparency in the care relationship.
+
+Examples
+23.2.b(1) A high-risk patient on long-term opioid therapy undergoes monthly screenings, with confirmatory lab testing twice yearly.
+23.2.c(1) A stable patient on low-dose therapy with no concerning behaviors receives annual screening, consistent with CDC guidelines, with additional testing if risks emerge.
+23.2.e(1) A patient with an unexpected negative opioid result receives confirmatory testing; the care team discusses findings openly and considers alternative explanations before adjusting the treatment plan.
+23.4.a(1) A patient repeatedly presents with early refill requests; they are classified as high risk, monitored weekly, and referred for behavioral health support.
+23.5.a(1) During admissions, the Care Manager explains that drug screening is part of the UTC safety model, designed to protect patients and optimize outcomes, not to exclude them from care.
+
+Standard 24 – Community Support
+Standard 24.1 – Purpose
+UTC programs must ensure that patients have access to community-based support and resources that address social determinants of health (SDoH) and extend care beyond the clinical setting. These support systems strengthen whole-person care, improve outcomes, and enhance value-based performance.
+Standard 24.2 – Community Health Worker (CHW) Integration
+	•	Each UTC program must utilize CHWs or equivalent roles to connect patients to community support, reinforce engagement, and provide culturally responsive advocacy.
+	•	CHWs function as trusted members of the care team, assisting patients in navigating health and social systems, and documenting interventions in the UTC care plan.
+Standard 24.3 – Scope of Services
+The program must maintain processes to provide or coordinate access to community support, which may include:
+Housing support: navigation, tenancy-sustaining services, short-term housing.
+Medically supportive food & nutrition: medically tailored meals, groceries, and pantry support.
+	•	Sobering and stabilization centers: alternatives to ED visits for substance-related needs.
+	•	Home- and community-based supports: personal care, environmental modifications, asthma remediation, medically necessary home visits.
+	•	Transportation: non-medical transportation and non-emergency medical transport.
+Peer and recovery support: peer mentoring, group engagement, recovery navigation.
+	•	Health-related education and navigation: benefits enrollment, advocacy, literacy support.
+(Services may be adapted to state/local availability, payer contracts, and patient needs.)
+Standard 24.4 – Family and Support System Involvement
+Community support must extend to families and caregivers where appropriate.
+	•	Services may include caregiver education, family counseling, and linkage to advocacy organizations.
+Standard 24.5 – Documentation & Coordination
+	•	All community support services provided or referred must be documented in the patient’s care plan.
+	•	The CHW or care manager must track referrals, follow-ups, and outcomes.
+	•	The transdisciplinary team must review community support interventions during unit Scrums and cycle reassessments.
+Intent Statement
+UTC recognizes that clinical care alone cannot achieve whole-person outcomes. By embedding Community Health Workers and formalizing access to CalAIM-aligned community support, UTC ensures that social, environmental, and economic barriers are systematically addressed. 
+
+Examples
+24.2.a(1) A CHW identifies that a patient has unstable housing; they coordinate with a housing navigation agency, document the referral, and follow up during the next cycle to ensure services were received.
+24.3.a(1) A patient with uncontrolled diabetes is enrolled in a medically supportive food program delivering tailored meals, coordinated by the UTC care manager.
+24.3.a(2) A patient with COPD receives home air-quality remediation through a CalAIM community support, reducing exacerbations and ED visits.
+24.4.a(1) A family caregiver attends a support group coordinated by a CHW, addressing stress and burnout while improving patient adherence.
+24.5.a(1) The transdisciplinary team reviews CHW notes during Scrum, noting that a patient’s transportation barriers have been resolved through a community ride service, improving unit attendance.
+
+
+Standard 25 – Disenrollment
+Standard 25.1 – Purpose
+UTC programs must maintain clear and consistent processes for disenrollment, ensuring patients transition safely out of the program when criteria are met. Disenrollment must be patient-centered, compliant with regulatory requirements, and aligned with payer expectations.
+Standard 25.2 – Criteria for Disenrollment
+A patient may be disenrolled from UTC when one or more of the following apply:
+	•	Care Plan Goals Met – The patient has achieved agreed-upon goals and is clinically stable.
+	•	Transition to Lower Level of Care – The patient’s needs can be managed by a primary care provider or other appropriate program.
+	•	Patient Choice – The patient declines or requests to discontinue UTC services.
+	•	Unwillingness to Engage – The patient has not participated in scheduled care despite repeated outreach attempts.
+	•	Unable to Connect – The care team cannot reach the patient after multiple good-faith attempts over at least 90 days.
+	•	Unsafe Behavior – The patient exhibits behavior that compromises the safety of staff, other patients, or themselves.
+	•	Administrative Reasons – Patient relocation, insurance loss, or change in eligibility status.
+Standard 25.3 – Required Process
+	•	Good Faith Outreach – At least 3 documented attempts to contact the patient, with at least one attempt per month over 90 days, unless immediate disenrollment criteria apply.
+	•	Documentation – All outreach efforts, patient statements, or safety concerns must be documented in the health record.
+	•	Review & Approval – Disenrollment requests must be reviewed by the care team and designated leadership before finalization.
+	•	Notice of Action (NOA) – When required by payer or regulatory authority (e.g., Medi-Cal / Enhanced Care Management (ECM), etc.), patients must be provided written notice of disenrollment, including rationale and appeal rights.
+	•	Transition of Care – Patients must be provided information, referrals, or linkages to appropriate next levels of care.
+Standard 25.4 – Exceptions for Immediate Disenrollment
+Immediate disenrollment may occur if:
+	•	The patient declines UTC participation.
+	•	The patient relocates outside the program’s service area.
+	•	The patient loses insurance coverage or eligibility.
+	•	The patient exhibits grossly unsafe behavior that places others at risk.
+Intent Statement
+UTC requires disenrollment to be a structured, transparent process that balances regulatory compliance, patient safety, and continuity of care. Organizations must ensure that disenrollments are clinically justified, thoroughly documented, and accompanied by safe transition planning.
+ 
+
+Examples
+25.2.a(1) A patient’s A1C improves from 10.5 to 6.0 and PHQ-9 drops to 4; care plan goals are achieved, and the patient transitions to primary care with a graduation summary.
+25.2.e(1) A patient misses three consecutive units and is unreachable after monthly outreach attempts for 90 days; disenrollment is initiated with documentation in the care record.
+25.2.f(1) A patient becomes physically aggressive toward staff; immediate disenrollment is processed for safety, and referrals to alternative community services are provided.
+25.3.d(1) An ECM patient disenrolled by UTC receives a Notice of Action letter 10 days prior to termination, with clear explanation of appeal rights.
+
+
+Standard 26 – Post-Discharge Contact
+Standard 26.1 – Purpose
+UTC programs must maintain processes for post-discharge contact to ensure that patients who exit the program continue to have access to needed resources, support, and information. This prevents care fragmentation, supports long-term outcomes, and aligns with payer quality expectations.
+Standard 26.2 – Required Post-Discharge Provisions
+For each patient discharged from the UTC program, the care team must:
+	•	Determine whether follow-up contact is appropriate based on patient needs and preferences.
+Provide patients with information about community support, primary care, or specialty services that can continue their care.
+	•	Offer a point of contact for questions or concerns post-discharge.
+Document all follow-up efforts and patient responses in the record.
+Standard 26.3 – Timing & Mechanisms
+	•	Post-discharge contact should occur within 30 days of program completion or disenrollment when applicable.
+	•	Acceptable mechanisms include phone calls, secure patient portal messages, telehealth visits, or in-person check-ins if clinically indicated.
+	•	High-risk patients (e.g., with recent hospitalization, behavioral instability, or active care gaps) should receive earlier and more frequent outreach.
+Standard 26.4 – Continuity of Care
+The UTC care team must facilitate warm handoffs to community support teams, primary care, or lower levels of care.
+	•	For patients enrolled in payer-managed programs (e.g., ECM, CCM, PCM, etc.), UTC staff must ensure transition notes and care summaries are sent to the payer or designated provider.
+	•	Patients must be made aware of re-entry options, including eligibility for future Wellness Cycles or more intensive cycles if conditions worsen.
+Standard 26.5 – Documentation
+Documentation of post-discharge contact must include:
+	•	The method of contact.
+	•	Services or referrals provided.
+	•	Patient’s expressed needs and preferences.
+	•	Outcomes of the contact (e.g., confirmed linkage, referral acceptance, declined services).
+Intent Statement
+UTC recognizes that patients with complex, chronic needs require continuity of care beyond program discharge. Post-discharge contact ensures that care transitions are safe, resources are connected, and patients understand how to access ongoing support. This standard reduces risk of deterioration, hospitalizations, and payer penalties while reinforcing UTC’s commitment to whole-person, longitudinal care.
+
+Examples
+26.2.a(1) A patient who graduates from the UTC program receives a follow-up call within 2 weeks confirming their first PCP appointment and reviewing medication adherence.
+26.3.a(1) A patient discharged after disengagement is contacted within 30 days and provided referrals for housing assistance and behavioral health services.
+26.4.a(1) A high-risk patient discharged from UTC is transitioned to an ECM program; the UTC care manager shares the care summary and introduces the ECM case manager via a joint call.
+26.4.a(2) A patient who completed the initial one-year program but later experiences a functional decline is invited to re-enter the program through a more intensive cycle.
+
+
+Standard 27 – Prescribing Standard of Care
+Standard 27.1 – Purpose
+UTC programs must ensure that all prescribing practices are evidence-based, patient-centered, and aligned with whole-person care principles. Prescribing should prioritize functional improvement, safety, and quality of life, while reducing risk of harm, dependency, or overutilization.
+Standard 27.2 – Guiding Principles
+All prescribing within UTC must follow these principles:
+	•	Whole-Person Orientation – Prescribing decisions must integrate medical, behavioral, functional, social, and patient preference factors.
+	•	Evidence-Based Practice – Medications must be prescribed in accordance with the most current clinical guidelines (e.g., CDC 2022 opioid prescribing guidelines, ACP multimodal pain care, APA behavioral integration standards).
+	•	Shared Decision-Making – Patients must be engaged in discussions of risks, benefits, and alternatives before initiating or changing prescriptions.
+	•	Function Over Symptom Suppression – The primary goal of prescribing is to support functional recovery, quality of life, and achievement of care plan goals, not merely to reduce symptoms.
+Standard 27.3 – Prescribing Practices
+UTC programs must demonstrate:
+	•	Risk–Benefit Assessment before prescribing any controlled or high-risk medication, including review of comorbidities, mental health status, and social determinants.
+	•	Non-Opioid First Approach for chronic pain, prioritizing NSAIDs, acetaminophen, adjuvants, and non-pharmacologic therapies unless contraindicated.
+	•	Opioid Prescribing when appropriate, with:
+	•	Clear documentation of indication, expected duration, and goals.
+	•	Prescription at the lowest effective dose and shortest duration, with ongoing reassessment.
+	•	Avoidance of concurrent benzodiazepines unless absolutely necessary and justified.
+	•	Use of Prescription Drug Monitoring Programs (PDMPs) to prevent unsafe polypharmacy. d. Special Populations – Adjusted prescribing for older adults, individuals with renal/hepatic impairment, pregnancy, or behavioral health comorbidities. e. Integrated Alternatives – Consideration of physical reconditioning, behavioral health therapies, procedural interventions, or complementary care before and during prescribing.
+Standard 27.4 – Monitoring and Follow-Up
+	•	Prescriptions must be reassessed at regular intervals (aligned with UTC cycles and patient risk level).
+	•	Metrics for reassessment include function, quality of life, adherence, side effects, and patient experience.
+	•	Providers must document rationale for continuing, tapering, or discontinuing therapy.
+Standard 27.5 – Safety and Compliance
+	•	Policies must ensure safe storage, dispensing, and monitoring of medications.
+	•	Random pill counts, urine drug screens, or other monitoring tools may be used when clinically indicated.
+	•	Prescribing practices must comply with all state and federal regulations, payer policies, and organizational protocols.
+Intent Statement
+UTC prescribing practices are not isolated clinical transactions but part of an integrated, transdisciplinary care model. By adhering to evidence-based, function-focused, and patient-centered prescribing standards, UTC programs promote safety, engagement, and whole-person healing while aligning with value-based expectations for cost, quality, and outcomes.
+Examples
+27.2.c(1) A patient with chronic low back pain is counseled on non-opioid options; duloxetine and PT are initiated before considering tramadol.
+27.3.c(1) A patient already on opioids is continued at a reduced dose with documented justification, paired with group-based behavioral health support and acupuncture.
+27.3.c(2) A provider identifies concurrent opioid and benzodiazepine prescriptions; the care team develops a taper plan and adds CBT for anxiety management.
+27.4.a(1) At the end of Cycle 1, opioid use is reassessed. The patient’s PHQ-9 has improved but function remains limited; the team transitions to interventional procedures and reduces opioid dosing.
+27.5.a(1) A PDMP check reveals multiple opioid prescriptions from outside providers. The Clinical Champion intervenes, coordinates with the patient’s PCP, and updates the UTC care plan.
+
+Standard 28 – Prescribing Basis
+Standard 28.1 – Purpose
+UTC programs must ensure that prescribing decisions are based on individualized assessment, balancing the needs of the person served, potential risks, and evidence of effectiveness. Prescribing must always be contextualized within the whole-person care plan and not considered in isolation.
+Standard 28.2 – Prescribing Basis
+All prescribing decisions must be grounded in the following considerations:
+	•	Patient Needs
+	•	Prescriptions must align with the patient’s current conditions, goals, and level of function.
+	•	Clinical indications must be clearly documented in the care plan.
+	•	Adverse Effects
+	•	Prescribers must evaluate potential adverse effects and interactions prior to initiation or continuation.
+	•	Side effects must be documented and addressed in the care plan, including adjustments or alternatives as needed
+	•	Risk–Benefit Ratio
+	•	Prescribing must consider the risks of dependence, diversion, or iatrogenic harm versus expected benefit.
+	•	Risk assessments (e.g., opioid misuse, falls, metabolic risks) must be documented for high-risk medications.
+	•	Evidence of Effectiveness
+	•	Prescriptions must be supported by evidence of:
+	•	Improved function (ability to perform ADLs, vocational engagement, participation in life roles).
+	•	Symptom reduction (pain, mood, or other relevant symptoms).
+	•	Lack of demonstrated effectiveness over time should trigger care plan reassessment, tapering, or discontinuation.
+Standard 28.3 – Monitoring and Documentation
+	•	Prescribing decisions must be reviewed and updated at each 12-week cycle reassessment or more frequently as indicated.
+	•	Documentation must include rationale, expected outcomes, and evidence of ongoing monitoring.
+	•	Results of prescribing (positive or negative) must be integrated into the Whole Person Needs Based Assessment (WPNBA) and tracked longitudinally.
+Standard 28.4 – Shared Decision-Making
+	•	Patients must be fully informed of risks, benefits, and alternatives.
+	•	Informed consent must be documented, particularly for controlled substances or higher-risk therapies.
+	•	Prescribing must reflect patient values and preferences in alignment with UTC’s philosophy of partnership.
+Intent Statement
+UTC requires that prescribing be intentional, data-driven, and patient-centered. By ensuring that prescriptions are justified by patient need, safety considerations, and measurable outcomes, the UTC model supports value-based performance while maintaining trust and reducing risk of harm. This standard prevents reflexive or siloed prescribing, embedding it within the transdisciplinary whole-person care plan.
+
+Examples
+28.2.a(1) A patient with uncontrolled diabetes and neuropathy is prescribed duloxetine, documented in the care plan with functional goals (walking 15 minutes daily).
+28.2.b(1) A patient reports sedation from gabapentin; the dose is reduced, and behavioral activation therapy is added as an alternative.
+28.2.c(1) A patient on chronic opioids with minimal improvement in function is reassessed; the team develops a taper plan and transitions to interventional care and PT.
+28.2.d(1) At the end of Cycle 2, reassessment shows blood pressure medication successfully controlled hypertension and allowed increased participation in group exercise; the prescription is continued with quarterly review.
+28.4.a(1) A patient with anxiety prefers non-pharmacologic options; the prescriber documents shared decision-making and refers to CBT before prescribing SSRIs.
+
+
+Standard 29 – Medication Management Guidelines
+Standard 29.1 – Purpose
+UTC programs must maintain written guidelines for medication management that ensure prescribing and monitoring are safe, evidence-based, patient-centered, and integrated into the whole-person care plan.
+Standard 29.2 – Required Elements of Medication Management
+Medication management processes must address:
+	•	Screening for Comorbidities
+	•	Patients must be evaluated for comorbid medical conditions (e.g., diabetes, hypertension, COPD, renal/hepatic impairment) that may impact medication safety and efficacy.
+	•	Evaluation of Potential Impacts
+	•	Medications must be reviewed for possible effects on comorbidities (e.g., NSAIDs worsening renal function, opioids affecting sleep apnea).
+	•	Identification of Drug Interactions
+	•	Programs must review all prescription, OTC, alternative, and supplemental medications to identify potential interactions.
+	•	Prescription Drug Monitoring Programs (PDMPs) must be checked before and during prescribing of controlled substances.
+	•	Planned Course of Use
+	•	For each prescribed medication, the expected use, duration, and discontinuation plan must be documented.
+	•	Long-term use must be justified and regularly reassessed.
+	•	Ongoing Reassessment
+	•	Medication regimens must be reviewed at least every 12-week cycle or more frequently for high-risk patients.
+	•	Reviews must assess adherence, effectiveness, side effects, and impact on whole-person goals.
+	•	Patient Education and Shared Responsibility
+	•	Patients must be educated on safe use, storage, and disposal of medications.
+	•	Patients are responsible for communicating changes in medication use and notifying providers of all medications received from other sources.
+	•	Resources must be provided to ensure access to prescribed medications (e.g., affordability, pharmacy access, delivery).
+	•	Coordination with Other Providers
+	•	The UTC team must communicate and coordinate with external prescribers to ensure alignment, avoid duplication, and prevent unsafe combinations.
+Standard 29.3 – Monitoring and Safety Tools
+	•	Programs must use monitoring strategies proportionate to patient risk, which may include:
+	•	Urine drug screens (see Standard 23).
+	•	Random pill counts.
+	•	Medication reconciliation at each encounter.
+	•	Functional outcome tracking (e.g., PHQ-9, pain interference, ADL scores).
+	•	Adverse reactions, contraindications, and safety concerns must be promptly documented and acted upon.
+Standard 29.4 – Whole-Person Integration
+	•	Medication management must be integrated into the Whole Person Needs Based Assessment (WPNBA) and transdisciplinary care planning.
+	•	Medications are to be considered alongside non-pharmacologic interventions (behavioral therapy, physical reconditioning, nutrition, alternative modalities).
+	•	Medication is never to be the sole modality in UTC care planning.
+Intent Statement
+UTC medication management guidelines ensure that pharmacologic care is not siloed but embedded within a transdisciplinary, whole-person framework. This standard protects patient safety, ensures compliance with clinical guidelines, and promotes effective collaboration across providers. By requiring reassessment, education, and coordination, UTC ensures that medications serve the patient’s goals of function, well-being, and long-term health.
+Examples
+29.2.a(1) A patient with hypertension is prescribed an NSAID for pain; the Clinical Champion documents comorbidity risk and adjusts the plan by coordinating with the PCP for close monitoring.
+29.2.c(1) Before prescribing tramadol, the prescriber checks the PDMP and identifies prior opioid fills; this leads to a care team discussion and dose adjustment.
+29.2.d(1) A new antidepressant is initiated with an expected 6-month course; discontinuation criteria and reassessment intervals are documented in the care plan.
+29.3.a(1) During a Cycle 2 reassessment, a patient reports dizziness from gabapentin; the medication is discontinued, and acupuncture plus PT are intensified as alternatives.
+29.4.a(1) A patient with major depression and chronic pain receives pharmacologic treatment, but their care plan also includes group CBT, physical reconditioning, and a CHW referral for housing instability.
+
+
+Standard 31 – Peer Review of Prescribing Services
+Standard 31.1 – Purpose
+UTC programs must implement a structured, documented peer review process of prescribing services to ensure that prescribing is clinically appropriate, consistent with UTC standards, and aligned with whole-person goals of care. Peer review strengthens safety, accountability, and continuous improvement.
+Standard 31.2 – Frequency and Scope
+	•	Peer review must occur at least annually on a representative sample of prescribing records.
+	•	Reviews should include prescribing for opioids, psychotropics, and other high-risk or high-cost medications, as well as a random selection of general prescribing.
+	•	Additional reviews may be conducted when:
+	•	A new prescriber joins the program.
+	•	New medication protocols are introduced.
+	•	Patterns of concern (e.g., high MME, polypharmacy) are identified.
+Standard 31.3 – Reviewer Qualifications
+	•	Peer review must be conducted by a qualified professional who:
+	•	Is licensed to prescribe medications or is a pharmacist.
+	•	Has expertise in the population served (e.g., chronic pain, behavioral health, complex care).
+	•	Reviewers cannot:
+	•	Solely review their own prescribing records.
+	•	Solely determine which records are selected for review.
+
+Standard 31.4 – Review Elements
+The peer review process must assess whether prescribing is:
+	•	Clinically appropriate for the patient’s condition and documented goals.
+	•	Aligned with UTC standards (whole-person care, function-focused, integrated care planning).
+	•	Consistent with evidence-based guidelines (e.g., CDC 2022 opioid prescribing).
+	•	Documented clearly, including rationale, duration, expected outcomes, and monitoring.
+	•	Responsive to risks, including:
+	•	Adverse reactions.
+	•	Contraindications.
+	•	Drug–drug interactions.
+	•	Unsafe polypharmacy.
+	•	Compliance and monitoring gaps.
+Standard 31.5 – Use of Results
+	•	Findings from peer review must be:
+	•	Shared with prescribers and leadership.
+	•	Incorporated into quality improvement activities (QI) and provider education.
+	•	Used to update policies, protocols, and training when needed.
+	•	Evidence of peer review and corrective actions must be maintained for accreditation.
+Intent Statement
+UTC recognizes that prescribing practices are a high-risk, high-visibility component of care. Peer review ensures that prescribing is not only safe and compliant, but also consistent with UTC’s values of whole-person healing, collaboration, and outcome-driven care. This standard embeds accountability into prescribing while reinforcing continuous quality improvement.
+Examples
+31.2.a(1) An annual peer review evaluates 20 patient charts across medical and behavioral prescribers, focusing on opioid prescribing patterns, alignment with care goals, and monitoring documentation.
+31.3.a(1) A pharmacist with experience in pain management collaborates with the Clinical Champion to review prescribing records for benzodiazepine–opioid co-prescribing.
+31.4.e(1) A peer review identifies several cases where PDMP checks were not documented; corrective training is initiated to improve compliance.
+31.5.a(1) A peer review finds inconsistent tapering documentation across providers; results are used to update UTC tapering guidelines and incorporated into the next provider education session.
+
+
+Standard 32 – Continuing Education for UTC
+Standard 32.1 – Purpose
+UTC programs must maintain a structured approach to continuing education (CE) to ensure that providers and staff remain competent, current, and aligned with UTC standards. CE is required for sustaining whole-person care delivery, fostering team collaboration, and meeting accreditation and payer expectations.
+Standard 32.2 – Required Elements of CE Programs
+Continuing education for UTC must include:
+	•	UTC Core Competencies
+	•	Whole-person assessment and care planning.
+	•	Transdisciplinary collaboration and unit-based workflows.
+	•	Value-based care principles and payer-aligned quality metrics.
+	•	Clinical and Technical Competencies
+	•	Evidence-based practices in medical, behavioral, physical, nutritional, and complementary care.
+	•	Safe prescribing and medication management.
+Use of technology platforms (Savas Software, MyOnCare, LMS, Teams, EHR integrations) to support care delivery.
+	•	Cultural and Relational Competencies
+	•	Patient engagement, shared decision-making, and motivational interviewing.
+	•	Health equity and culturally responsive care.
+	•	Trauma-informed care and addressing social determinants of health.
+	•	Regulatory and Compliance Requirements
+	•	Accreditation standards (UTC, CARF, etc.).
+	•	Federal and state compliance (HIPAA, CMS, DHCS, payer-specific guidelines).
+	•	Documentation and billing compliance, including value-based reporting.
+Standard 32.3 – CE Delivery and Tracking
+	•	CE must be delivered through multiple modalities, including onboarding, in-person workshops, e-learning, simulation, and case-based learning.
+	•	Programs must provide at least annual CE opportunities relevant to each provider’s scope of practice.
+	•	Completion must be documented and tracked in a centralized system.
+Standard 32.4 – Integration with Quality Improvement
+	•	CE priorities must be informed by peer review results (Standard 31), quality improvement initiatives, and identified program gaps.
+	•	Ongoing training must address emerging trends, new therapies, and feedback from patient experience data.
+Standard 32.5 – Fellowship and Leadership Development
+	•	UTC programs are encouraged to offer fellowship-level training or advanced CE for high-performing providers to prepare them as future Clinical Champions or transdisciplinary leaders.
+	•	This creates sustainability and scalability of UTC across multiple sites.
+Intent Statement
+UTC continuing education ensures that providers and staff deliver care that is competent, current, and culturally aligned with UTC values. CE reinforces UTC’s identity as a learning health system — continuously improving through feedback, research, and innovation while maintaining fidelity to its whole-person, value-based framework.
+
+Examples
+32.2.a(1) A quarterly CE module reviews UTC workflows for unit Scrums, reinforcing collaboration between medical, behavioral, and physical reconditioning providers.
+32.2.b(1) Providers complete a CME-accredited course on safe tapering practices and alternatives to opioids, aligned with CDC 2022 guidelines.
+32.2.c(1) A CHW participates in CE on health equity and SDoH navigation, improving their ability to connect patients to CalAIM community supports.
+32.3.a(1) The program uses its LMS to track CE completion and generates reports during accreditation audits.
+32.4.a(1) After a peer review identifies inconsistent documentation of PDMP checks, a CE workshop is developed to train providers on best practices.
+32.5.a(1) A UTC site develops a Fellowship track where advanced PTs and LCSWs rotate as unit leaders, preparing them for future Clinical Champion roles.
+
+Standard 33 – Research Readiness
+Standard 33.1 – Purpose
+UTC programs must demonstrate a commitment to advancing the field of whole-person, transdisciplinary care by supporting research readiness. This includes the ability to participate in, contribute to, and benefit from clinical, operational, and population health research.
+Standard 33.2 – Organizational Commitment
+Programs must show leadership support for:
+	•	Participation in external research projects, clinical trials, or demonstration studies relevant to UTC’s mission.
+	•	Collaboration with academic, payer, or community partners to generate new knowledge.
+	•	Advocacy for research that advances whole-person, value-based, and equitable care.
+Standard 33.3 – Research Infrastructure
+UTC programs must maintain infrastructure that enables safe and effective research participation, including:
+	•	Data Readiness – Systems that ensure data integrity, de-identification, and compliance with HIPAA and other privacy regulations.
+	•	Documentation Standards – Capacity to generate standardized reports and export de-identified data for analysis.
+	•	Governance – Oversight mechanisms for ethical participation, including adherence to IRB requirements when applicable.
+	•	Staff Training – Education on research protocols, informed consent, and responsible data use.
+Standard 33.4 – Patient & Stakeholder Engagement
+	•	Patients must be informed of research opportunities in a manner that is transparent, voluntary, and culturally appropriate.
+	•	Stakeholders (payers, community partners, regulators) should be included in research collaborations where appropriate.
+	•	Patient voices should guide the design and interpretation of research through feedback loops and advisory panels.
+Standard 33.5 – Knowledge Translation
+	•	Programs must commit to translating research findings into practice by updating policies, workflows, and care plans when evidence supports improvements.
+	•	Research participation should result in shared learning across the UTC network, enabling scalability and continuous improvement.
+Intent Statement
+UTC is designed to function as a learning health system. Research readiness ensures that accredited programs are not only consumers of evidence, but also contributors to advancing knowledge in whole-person, transdisciplinary, and value-based care. By embedding readiness into infrastructure, governance, and culture, UTC programs strengthen their credibility, payer alignment, and long-term sustainability.
+
+Examples
+33.2.a(1) A UTC program partners with a university on a study examining functional outcomes of transdisciplinary care compared to standard specialty care.
+33.3.a(1) The program maintains a de-identified patient data registry that can be used to support population health research while protecting PHI.
+33.4.a(1) A patient advisory panel reviews proposed participation in a demonstration project on digital health tools, ensuring transparency and cultural alignment.
+33.5.a(1) After participating in a clinical trial on group-based behavioral health interventions, the UTC program incorporates findings into unit-based group therapy protocols.
+
+
+Standard 34 – Financial Operations
+Standard 34.1 – Purpose
+UTC programs must demonstrate sound financial planning and management practices that ensure sustainability, accountability, and alignment with whole-person, value-based care. Financial operations must support program viability while protecting patient access and quality.
+Standard 34.2 – Required Financial Practices
+UTC programs must maintain processes to:
+	•	Budget and Resource Planning
+Develop and monitor an annual budget that accounts for clinical operations, staffing, technology, facility needs, and patient support.
+	•	Ensure financial planning reflects value-based contract requirements and risk arrangements where applicable.
+	•	Case Mix & Referral Analysis
+	•	Track case mix complexity and referral sources to anticipate resource utilization.
+	•	Monitor financial performance across different payer contracts (e.g., VBC, FFS with CCM/RTM/BHI).
+	•	Denials Management
+	•	Track payer denials systematically and implement corrective action plans to reduce denial rates.
+	•	Establish an appeals process with documented follow-up.
+	•	Return on Investment (ROI)
+	•	Demonstrate ROI at both the program and patient level, measuring cost savings, avoided hospitalizations, and quality incentive earnings.
+Use ROI data to inform reinvestment into care team resources, technology, and community support.
+	•	Value-Based Purchasing Readiness
+	•	Understand and apply principles of value-based purchasing (VBP).
+	•	Ensure staff are educated on financial incentives tied to quality, access, and patient experience.
+Standard 34.3 – Transparency & Accountability
+	•	Programs must maintain transparent reporting of financial performance to leadership and, when appropriate, to payers and stakeholders.
+	•	Financial reports must align with organizational governance structures and support ongoing strategic planning.
+Standard 34.4 – Integration with Clinical and Operational Goals
+	•	Financial operations must be reviewed in conjunction with quality, access, and utilization outcomes.
+	•	Leadership must ensure financial priorities never compromise patient safety, equity, or adherence to UTC standards.
+Intent Statement
+UTC financial operations are not solely administrative but are a key driver of sustainability, scalability, and payer alignment. By embedding value-based purchasing, case mix analysis, and ROI into operations, UTC ensures that financial practices directly support its mission of delivering whole-person, transdisciplinary care in a sustainable and compliant way.
+
+Examples
+34.2.b(1) A UTC program tracks referral patterns and case mix complexity, identifying that patients with diabetes and chronic pain require more dietetic and CHW services. Financial planning adjusts resource allocation accordingly.
+34.2.c(1) A payer denial for CCM billing is appealed successfully after the UTC program documents adherence to required care coordination protocols.
+34.2.d(1) A financial analysis shows the program reduced ED visits by 20% in one year, generating shared savings with a Medicaid managed care partner. These savings are reinvested into expanding CHW staffing.
+34.2.e(1) Staff are trained on how HEDIS measures tie to value-based incentives, reinforcing the connection between clinical documentation and financial sustainability.
+
+Standard 35 – Annual Written Analysis of Services & Outcomes
+Standard 35.1 – Purpose
+UTC programs must conduct an annual written analysis of services provided and outcomes achieved to evaluate performance, demonstrate value, and guide continuous improvement. This ensures accountability to patients, payers, and stakeholders while reinforcing UTC’s mission of whole-person care.
+Standard 35.2 – Required Elements
+The written analysis must address:
+	•	Service Delivery Indicators
+Number of patients enrolled, cycles completed, and unit activity delivered.
+Access metrics (show rates, time-to-therapy, dropout rates).
+Utilization of non-unit activities (advanced primary care, virtual urgent care, etc.).
+	•	Patient Outcomes
+	•	Clinical measures (e.g., blood pressure control, A1C improvement, depression scores).
+	•	Functional improvements (ADLs/IADLs, return to work, pain interference reduction).
+	•	Patient-reported outcomes (quality of life, satisfaction, experience).
+	•	Whole-Person Impact
+	•	Progress documented across UTC’s six dimensions (biological, psychological, social, spiritual, economic, functional).
+	•	Achievement of short-, medium-, and long-term goals.
+	•	Value-Based Performance
+	•	Avoided hospitalizations/ED visits.
+	•	Closed quality gaps (e.g., HEDIS compliance).
+	•	Cost savings and shared savings achieved through value-based arrangements.
+	•	Education & Engagement
+	•	Impact of continuing education for providers (Standard 32).
+	•	Patient engagement metrics (portal usage, group attendance, shared decision-making participation).
+	•	Trends, Actions, and Improvements
+	•	Identified trends over time.
+	•	Action steps for improvement.
+	•	Evaluation of results from previous performance improvement initiatives.
+Standard 35.3 – Process Requirements
+	•	The analysis must be completed at least annually and reviewed by leadership.
+	•	Findings must be shared with staff, payers, and stakeholders as appropriate.
+	•	Documentation must demonstrate how results inform program modification, staffing, education, and financial planning.
+Standard 35.4 – Integration with Other Standards
+	•	Data from peer review (Standard 31), continuing education (Standard 32), and financial operations (Standard 34) must inform the analysis.
+	•	Results must feed into the strategic planning process (Program Director & Clinical Champion responsibilities).
+Intent Statement
+UTC’s annual analysis ensures that programs measure what matters: outcomes, access, quality, experience, and cost. By systematically reviewing services and outcomes, UTC programs hold themselves accountable to their mission, demonstrate value to payers, and continually refine care delivery.
+
+Examples
+35.2.a(1) A program reports that 82% of patients completed at least one full UTC cycle, with a show rate improvement from 78% to 85% compared to the prior year.
+35.2.b(1) A diabetes subgroup achieved a 1.2% average A1C reduction; 60% reached target control.
+35.2.c(1) A spiritual needs analysis shows that 40% of patients accessed chaplaincy or values-based care planning, prompting expansion of spiritual services.
+35.2.d(1) ED visits declined by 25% among active UTC patients, resulting in $1.2M in shared savings with a managed Medicaid partner.
+35.2.f(1) A trend analysis reveals higher dropout among patients with housing instability; corrective action includes increased CHW engagement and coordination with housing supports.
+
+
+Standard 36 – Annual Written Analysis of Clinical Operations
+Standard 36.1 – Purpose
+UTC programs must conduct an annual written analysis of clinical operations to evaluate efficiency, effectiveness, and alignment with UTC standards. This analysis ensures programs continuously improve unit flow, patient engagement, and care team performance.
+Standard 36.2 – Required Indicators
+The annual analysis must include measurement of:
+	•	Operational Access
+	•	Show rates (scheduled vs. attended units).
+	•	Cancellations and no-shows, tracked and defined consistently.
+	•	Dropouts, including cycle attrition and reasons for disenrollment.
+	•	Unit & Flow Efficiency
+	•	Average patient throughput per unit.
+	•	Balance of group vs. individual encounters.
+	•	Utilization of Flow Coordinator to manage patient movement.
+	•	Cycle & Scheduling Performance
+	•	Average number of cycles completed per patient.
+	•	Adherence to scheduling framework (weekly → biweekly → monthly transitions).
+	•	Flexibility and responsiveness to patient needs (ad hoc assessments, acute cycle re-entry).
+	•	Care Team Collaboration
+	•	Frequency and effectiveness of Scrums.
+	•	Integration of medical, behavioral, physical, and alternative providers in care planning.
+	•	Communication effectiveness between unit and non-unit activity staff.
+Standard 36.3 – Documentation and Analysis
+	•	The analysis must compare performance against established targets (e.g., show rate ≥85%).
+	•	Results must be stratified by population type (e.g., Medicaid, commercial, Medicare) to identify disparities.
+	•	Action steps for improvement must be clearly documented, assigned, and tracked.
+Standard 36.4 – Education and Training Linkage
+	•	Identified operational gaps must inform staff education and continuing education programs (Standard 32).
+	•	Training should focus on engagement strategies, efficient unit flow, and use of technology to reduce operational barriers.
+Intent Statement
+UTC requires that operational performance be analyzed with the same rigor regarding outcomes. This ensures that patient engagement, team efficiency, and flow coordination are continually improved. By embedding operational review into the annual cycle, UTC programs demonstrate accountability for both clinical quality and operational excellence.
+
+Examples
+36.2.a(1) A program documents a 15% no-show rate. Analysis shows transportation barriers; corrective action includes expanding CHW-coordinated rides.
+36.2.b(1) Throughput analysis shows that high-complexity units averaged only 5 patients per session; the Flow Coordinator adjusts scheduling to balance complexity across units.
+36.2.c(1) Review of scheduling shows most patients transitioned to biweekly sessions in Cycle 2; however, 20% missed reassessment milestones. Process improvement includes earlier care manager outreach.
+36.2.d(1) An operational review finds that Scrums are inconsistent across teams; the Clinical Champion introduces a standardized Scrum checklist to improve care planning consistency.
+
+
+Standard 37 – Annual Written Analysis of Utilization Management / Quality
+Standard 37.1 – Purpose
+UTC programs must complete an annual written analysis of utilization management (UM) and quality performance to ensure that services are appropriate, efficient, effective, and aligned with UTC’s mission of whole-person, value-based care.
+Standard 37.2 – Required Indicators
+The analysis must review a representative sample of patient records (both active and closed) and address:
+	•	Quality of Services
+	•	Consistency with UTC standards and evidence-based practices.
+	•	Documentation of whole-person care planning and follow-through.
+	•	Patient safety and adherence to risk management protocols.
+	•	Appropriateness of Services
+	•	Whether services matched patient needs, complexity, and goals.
+	•	Evaluation of intensity and frequency of care cycles (weekly → biweekly → monthly).
+	•	Documentation of contraindications, adaptations, or exclusions.
+	•	Patterns of Service Utilization
+	•	Group of non-unit activities (HEDIS gap closure, virtual check-ins).
+	•	Performance Against Targets
+	•	Achievement of organizational benchmarks for access, quality, patient experience, and cost.
+	•	Alignment with payer quality metrics (e.g., HEDIS, NCQA).
+
+Standard 37.3 – Process Requirements
+	•	Reviews must be performed by trained and qualified personnel who are not solely responsible for the services they review.
+	•	The analysis must be documented in writing and include:
+	•	Performance relative to targets (quality, appropriateness, utilization).
+	•	Trends over time across cycles and patient populations.
+	•	Actions for improvement and assigned responsibility.
+	•	Results of prior performance improvement efforts.
+Standard 37.4 – Integration with QI and Education
+	•	Findings must inform the organization’s Quality Improvement (QI) program.
+	•	Gaps identified must be linked to continuing education (Standard 32) and operational adjustments (Standard 36).
+	•	Reports must be shared with leadership, payers, and stakeholders as appropriate.
+Intent Statement
+UTC requires an annual review of how services are used and how quality is maintained. By analyzing quality, appropriateness, and utilization together, UTC programs ensure services are patient-centered, efficient, and effective. This process protects patients, supports payers, and strengthens the organization’s ability to deliver whole-person outcomes within value-based arrangements.
+
+Examples
+37.2.a(1) A quality review finds that 90% of records document full WPNBA completion; corrective education is launched to close the gap in the remaining 10%.
+37.2.b(1) An appropriateness analysis reveals that several patients with acute exacerbations did not revert to a higher-intensity cycle; policies are updated to strengthen transition protocols.
+37.2.c(1) Utilization analysis shows that group sessions are underutilized compared to individual visits; the Clinical Champion implements new triage guidelines to optimize group utilization.
+37.2.d(1) A payer report demonstrates improvement in HEDIS measures for blood pressure control and depression screening; results are integrated into the annual QI plan.
+
+
+Standard 38 – Technology
+Standard 38.1 – Purpose
+UTC programs must implement and maintain technology systems that enable whole-person, transdisciplinary care delivery; secure and compliant data management; and value-based performance. Technology must support both clinical and operational needs while reinforcing UTC’s standards for patient engagement, care coordination, outcomes tracking, and education.
+Standard 38.2 – Core Clinical Systems
+UTC programs must demonstrate:
+	•	Electronic Health Record (EHR) that supports UTC service lines, whole-person assessments, interdisciplinary documentation, care planning, and outcomes tracking.
+	•	Patient engagement tools such as portals for communication, scheduling, reminders, education, and self-management resources.
+	•	Telehealth / ICT infrastructure to support virtual care delivery in accordance with CARF standards for technology-enabled services.
+Standard 38.3 – Care Coordination & Interdisciplinary Tools
+The program must provide:
+Shared care plan management is accessible to all service lines (medical, behavioral, physical, social, spiritual).
+	•	Secure team communication that is HIPAA-compliant and role-based.
+	•	Case management integration with external programs such as CalAIM Enhanced Care Management (ECM) and Community Supports.
+Standard 38.4 – Data & Performance Infrastructure
+Programs must maintain:
+	•	Data warehouse/lake architecture capable of capturing clinical, operational, and financial data.
+	•	Analytics and dashboards for tracking patient engagement, outcomes, utilization, opioid prescribing, and functional measures.
+	•	Performance measurement tools that align with UTC accreditation standards (case mix, referral patterns, ROI, value-based purchasing).
+	•	Research readiness infrastructure to support de-identified data sharing and participation in clinical studies.
+Standard 38.5 – Operational Technology
+UTC programs must utilize:
+	•	Practice management and scheduling software that supports unit-based scheduling and multi-disciplinary coordination.
+	•	Revenue cycle management (RCM) and billing systems that accommodate facility and professional billing, as well as value-based reimbursement models.
+	•	Procurement and inventory tools capable of forecasting procedural needs and managing vendor catalogs (particularly in ASC or integrated settings).
+Standard 38.6 – Compliance & Security
+The technology environment must include:
+	•	Cybersecurity infrastructure with device management, role-based access, encryption, and audit trails.
+	•	Data privacy tools to ensure HIPAA, SOC 2, and other regulatory compliance, including PHI masking and monitoring.
+	•	24/7 medical consultation protocols supported by technology (on-call systems, telehealth triage, urgent care integration).
+Standard 38.7 – Education & Workforce Enablement
+Programs must support:
+	•	UTC University integration via LMS (e.g., Docebo), onboarding pathways (e.g., MyOnCare), and collaboration platforms (e.g., Teams/SharePoint).
+	•	AI-driven coaching tools (e.g., decision support, PAS scoring, ambient AI documentation, Copilot/agent assistants).
+	•	Competency tracking that validates provider certification and supports facility accreditation requirements.
+Intent Statement
+Technology in UTC is not a separate infrastructure layer but an integrated enabler of whole-person care. By requiring a standardized but adaptable tech stack, UTC ensures that programs can deliver transdisciplinary care, support payer-aligned value-based models, protect patient data, and prepare for ongoing research and accreditation.
+Examples
+38.2.a(1) A UTC program’s EHR integrates pain scores, PHQ-9, and social needs assessments into the shared care plan, visible to all service lines.
+38.3.b(1) A CHW documents housing support efforts in the shared care plan, which is viewable by the Clinical Champion and Flow Coordinator in real time.
+38.4.b(1) A dashboard tracks show rates, cancellations, opioid tapering progress, and patient-reported outcomes, reviewed monthly by leadership.
+38.5.a(1) Practice management software is used to coordinate 8 patients through a 2.5-hour unit, ensuring each rotates between group and individual sessions.
+38.6.c(1) After-hours medical consultation is supported through a telehealth platform that connects patients with the on-call provider and documents the interaction in the EHR.
+38.7.b(1) Providers use an AI-driven PAS tool to score appropriateness of interventional procedures, which feeds into care plan decisions and payer documentation.
+
+Standard 39 – Software Utilization
+Standard 39.1 – Purpose
+UTC programs must utilize a dedicated software platform that operationalizes UTC methodology in real time. The platform functions as the operating system for UTC, ensuring that the philosophy, care model, and standards are consistently embedded in daily operations, team coordination, and outcomes measurement.
+Standard 39.2 – Core Functional Requirements
+	•	Embedding UTC Workflows
+	•	The platform must incorporate UTC workflows (e.g., Autonomous Scrum, Virtual Flow Coordinator, Pre-Scrum Briefings, Day Planner) into daily care delivery.
+	•	These workflows must enable team-based, real-time coordination that cannot be achieved consistently through manual processes.
+	•	AI-Driven Decision Support
+	•	The platform should provide AI-enabled tools (e.g., decision support, ambient listening, structured case notes, Patient History Dial) that adapt dynamically to patient complexity across all dimensions of the whole person.
+	•	AI features must enhance—not replace—provider judgment, supporting care plan formulation, documentation, and risk management.
+	•	Human-Centered Experience
+	•	The platform must support multimodal interactions (voice, text, visual/AR) to facilitate collaboration across providers, patients, and families.
+	•	The UX design must reinforce UTC’s philosophy of equal participation and transparency.
+	•	Data & Performance Infrastructure
+	•	The platform must capture, stream, and analyze data related to clinical outcomes, operational efficiency, and value-based performance (e.g., no-shows, dropouts, functional outcomes, quality of life).
+	•	Analytics and dashboards must function as a living feedback system, driving continuous quality improvement (CQI).
+	•	Compliance and Integration
+	•	The platform must support compliance with UTC accreditation standards, payer requirements, and applicable regulatory frameworks.
+	•	It must integrate clinical reasoning, documentation, and billing to ensure that care delivery aligns with compliance, outcomes, and financial stewardship.
+Standard 39.3 – Mutual Dependency of Methodology and Platform
+	•	The UTC methodology defines the clinical model, whole-person framework, and care delivery standards.
+	•	The software platform operationalizes these standards by ensuring workflows, decisions, and performance tracking are consistently applied.
+	•	Together, they form a mutually dependent ecosystem: UTC is the philosophy, and the platform is its execution and scaling engine.
+Intent Statement
+UTC standards require that software be more than an EHR or scheduling tool — it must be the living infrastructure of the model. By embedding UTC workflows, AI decision support, multimodal collaboration, and data-driven improvement, the platform ensures UTC care is consistent, measurable, scalable, and sustainable. Without such software, UTC remains aspirational; without UTC, the software is just another health IT product.
+
+Examples
+39.2.a(1) A UTC team begins the day with an Autonomous Scrum generated by the software, which compiles patient updates, recent lab results, and prior cycle outcomes for review before the unit starts.
+39.2.b(1) During a behavioral health session, ambient AI listening generates structured case notes that flow directly into the shared care plan, reducing administrative burden.
+39.2.c(1) A patient and their spouse join a session where the provider shares an AR-enabled care plan visualization; the spouse contributes directly to goal-setting.
+39.2.d(1) Dashboards show that show-rates improved 7% after transportation support was added, prompting leadership to scale CHW involvement.
+39.2.e(1) An automated workflow links pain procedure documentation with billing codes and payer reporting, ensuring compliance while reducing administrative overhead.
+
+Appendix A: UTC Standards Order w/ CARF Mapping
+Measure
+UTC Standard
+CARF Mapping
+1
+Whole Person Dimensions
+3.F.1
+2
+Transdisciplinary Team
+3.F.2
+3
+Services / Programs
+3.F.3
+4
+Facilities: Rooms & Layout
+
+5
+Facilities: Equipment
+
+6
+Facilities: Concepts (Fishbowl, Healing Room, Therapy Room, etc.)
+
+7
+Contracting
+
+8
+Program Director Responsibilities
+3.F.4
+9
+Clinical Champion Responsibilities
+3.F.5
+10
+Clinical Champion Qualifications
+3.F.6
+11
+Transdisciplinary Team (Non-Physician) Qualifications
+3.F.7
+12
+Program Timing (Cyclical Delivery)
+
+13
+Admissions Process
+3.F.8
+14
+Dimensional Needs Based Assessment
+3.F.9
+15
+Initial & Ongoing Assessments
+3.F.10
+16
+Chronic Opioid Use
+3.F.11
+17
+Process and Procedures for Initial & Ongoing Assessments
+3.F.12
+18
+Unit Activity (Flow Coordination)
+
+19
+Non-Unit Activity
+
+20
+Care Coordination
+3.F.13
+21
+Stakeholder Communication
+3.F.14
+22
+24/7 Access to Care
+3.F.15
+23
+Drug Screening Procedures
+3.F.16
+24
+Community Supports
+3.F.17
+25
+Disenrollment
+
+26
+Post Discharge Contact
+3.F.18
+27
+Prescribing Standard of Care
+3.F.19
+28
+Prescribing Basis
+3.F.20
+29
+Medication Management Guidelines
+3.F.21
+30
+Interventional Procedures 
+
+31
+Peer Review of Prescribing Services
+3.F.22
+32
+Continuing Education for UTC
+3.F.23
+33
+Research Readiness
+3.F.24
+34
+Financial Operations
+3.F.25
+35
+Annual Written Analysis of Services / Outcomes
+3.F.26
+36
+Annual Written Analysis of Clinical Operations
+3.F.27
+37
+Annual Written Analysis of Utilization Management / Quality
+3.F.28
+38
+Technology
+
+39
+Software Utilization
+
+
+

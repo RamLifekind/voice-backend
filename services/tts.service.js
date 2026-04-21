@@ -7,45 +7,99 @@
 const sdk = require("microsoft-cognitiveservices-speech-sdk");
 const config = require("../config");
 
-// Medical terms pronunciation dictionary (word -> phonetic)
-const MEDICAL_PRONUNCIATIONS = {
-  // Common medical terms
-  "hypertension": "high-per-TEN-shun",
-  "hypotension": "high-po-TEN-shun",
-  "tachycardia": "tak-ih-KAR-dee-uh",
-  "bradycardia": "brad-ih-KAR-dee-uh",
-  "arrhythmia": "uh-RITH-mee-uh",
-  "dyspnea": "DISP-nee-uh",
-  "edema": "ih-DEE-muh",
-  "ischemia": "ih-SKEE-mee-uh",
-  "anemia": "uh-NEE-mee-uh",
-  "sepsis": "SEP-sis",
-  "embolism": "EM-buh-liz-um",
-  "thrombosis": "throm-BOH-sis",
-  "stenosis": "steh-NOH-sis",
-  "fibrillation": "fib-rih-LAY-shun",
-  "infarction": "in-FARK-shun",
-  "neuropathy": "noo-ROP-uh-thee",
-  "myopathy": "my-OP-uh-thee",
-  "cardiomyopathy": "kar-dee-oh-my-OP-uh-thee",
-  "encephalopathy": "en-sef-uh-LOP-uh-thee",
-  "nephropathy": "neh-FROP-uh-thee",
-  "retinopathy": "ret-in-OP-uh-thee",
-  "osteoporosis": "os-tee-oh-puh-ROH-sis",
-  "osteoarthritis": "os-tee-oh-ar-THRY-tis",
-  "fibromyalgia": "fy-broh-my-AL-juh",
-  "scoliosis": "skoh-lee-OH-sis",
-  "kyphosis": "ky-FOH-sis",
-  "lordosis": "lor-DOH-sis",
-  "sciatica": "sy-AT-ih-kuh",
-  "radiculopathy": "rad-ik-yoo-LOP-uh-thee",
-  "subluxation": "sub-luk-SAY-shun",
-  // Abbreviations
+// Medical terms pronunciation dictionary using IPA phonemes
+// Azure Neural voices support IPA via <phoneme alphabet="ipa"> SSML tags
+// This gives exact phonetic control — no guessing by the TTS engine
+const MEDICAL_IPA = {
+  // Conditions - musculoskeletal / pain
+  "fibromyalgia":    "ˌfaɪbroʊmaɪˈældʒə",
+  "scoliosis":       "ˌskoʊliˈoʊsɪs",
+  "kyphosis":        "kaɪˈfoʊsɪs",
+  "lordosis":        "lɔːrˈdoʊsɪs",
+  "sciatica":        "saɪˈætɪkə",
+  "radiculopathy":   "rəˌdɪkjʊˈlɑːpəθi",
+  "subluxation":     "ˌsʌblʌkˈseɪʃən",
+  "osteoporosis":    "ˌɑːstioʊpəˈroʊsɪs",
+  "osteoarthritis":  "ˌɑːstioʊɑːrˈθraɪtɪs",
+  "myofascial":      "ˌmaɪoʊˈfæʃəl",
+  "cervicalgia":     "ˌsɜːrvɪˈkældʒə",
+  "lumbago":         "lʌmˈbeɪɡoʊ",
+  "tendinopathy":    "ˌtɛndɪˈnɑːpəθi",
+  "enthesopathy":    "ˌɛnθɪˈsɑːpəθi",
+
+  // Conditions - cardiovascular
+  "hypertension":    "ˌhaɪpərˈtɛnʃən",
+  "hypotension":     "ˌhaɪpoʊˈtɛnʃən",
+  "tachycardia":     "ˌtækɪˈkɑːrdiə",
+  "bradycardia":     "ˌbrædɪˈkɑːrdiə",
+  "arrhythmia":      "əˈrɪðmiə",
+  "fibrillation":    "ˌfɪbrɪˈleɪʃən",
+  "infarction":      "ɪnˈfɑːrkʃən",
+  "thrombosis":      "θrɑːmˈboʊsɪs",
+  "embolism":        "ˈɛmbəlɪzəm",
+  "stenosis":        "stəˈnoʊsɪs",
+  "ischemia":        "ɪˈskimiə",
+  "cardiomyopathy":  "ˌkɑːrdioʊmaɪˈɑːpəθi",
+
+  // Conditions - neuro / general
+  "neuropathy":      "nʊˈrɑːpəθi",
+  "myopathy":        "maɪˈɑːpəθi",
+  "encephalopathy":  "ɛnˌsɛfəˈlɑːpəθi",
+  "nephropathy":     "nɛˈfrɑːpəθi",
+  "retinopathy":     "ˌrɛtɪˈnɑːpəθi",
+  "dyspnea":         "ˈdɪspniə",
+  "edema":           "ɪˈdimə",
+  "anemia":          "əˈnimiə",
+  "sepsis":          "ˈsɛpsɪs",
+
+  // Treatment types
+  "chiropractic":    "ˌkaɪroʊˈpræktɪk",
+  "acupuncture":     "ˈækjʊˌpʌŋktʃər",
+  "psychotherapy":   "ˌsaɪkoʊˈθɛrəpi",
+  "physiotherapy":   "ˌfɪzioʊˈθɛrəpi",
+  "analgesic":       "ˌænəlˈdʒizɪk",
+  "prophylaxis":     "ˌproʊfɪˈlæksɪs",
+  "comorbidity":     "ˌkoʊmɔːrˈbɪdɪti",
+  "comorbidities":   "ˌkoʊmɔːrˈbɪdɪtiz",
+
+  // Drug classes / meds
+  "gabapentin":      "ˌɡæbəˈpɛntɪn",
+  "pregabalin":      "prɪˈɡæbəlɪn",
+  "duloxetine":      "dəˈlɑːksəˌtin",
+  "amitriptyline":   "ˌæmɪˈtrɪptəˌlin",
+  "cyclobenzaprine": "ˌsaɪkloʊˈbɛnzəˌprin",
+  "naproxen":        "nəˈprɑːksən",
+  "ibuprofen":       "ˌaɪbjuːˈproʊfən",
+  "acetaminophen":   "əˌsiːtəˈmɪnəfən",
+  "hydrocodone":     "ˌhaɪdroʊˈkoʊdoʊn",
+  "oxycodone":       "ˌɑːksɪˈkoʊdoʊn",
+  "buprenorphine":   "ˌbjuprəˈnɔːrˌfin",
+  "naloxone":        "ˈnæləkˌsoʊn",
+  "naltrexone":      "ˈnælˌtrɛkˌsoʊn",
+  "suboxone":        "sʊˈbɑːksoʊn",
+  "methadone":       "ˈmɛθəˌdoʊn",
+  "clonidine":       "ˈklɑːnɪˌdin",
+  "tizanidine":      "taɪˈzænɪˌdin",
+  "meloxicam":       "mɛˈlɑːksɪˌkæm",
+  "diclofenac":      "daɪˈkloʊfənæk",
+  "tramadol":        "ˈtræməˌdɔːl",
+  "celecoxib":       "ˌsɛlɪˈkɑːksɪb",
+  "corticosteroid":  "ˌkɔːrtɪkoʊˈstɛrɔɪd",
+  "corticosteroids": "ˌkɔːrtɪkoʊˈstɛrɔɪdz",
+
+  // Assessments / scores
+  "PHQ":             "piː eɪtʃ kjuː",
+  "GAD":             "dʒiː eɪ diː",
+  "UDS":             "juː diː ɛs",
+};
+
+// Abbreviations — use <sub alias> (simpler, read as words)
+const ABBREVIATION_SUBS = {
   "GHS": "G H S",
   "UTC": "U T C",
   "CPT": "C P T",
   "MRI": "M R I",
-  "CT": "C T",
+  "CT": "C T scan",
   "EKG": "E K G",
   "ECG": "E C G",
   "BMI": "B M I",
@@ -53,20 +107,24 @@ const MEDICAL_PRONUNCIATIONS = {
   "HR": "heart rate",
   "RR": "respiratory rate",
   "SpO2": "oxygen saturation",
-  "A1C": "A 1 C",
-  "HbA1c": "hemoglobin A 1 C",
-  // Drug classes
+  "A1C": "A one C",
+  "HbA1c": "hemoglobin A one C",
   "NSAID": "N said",
+  "NSAIDs": "N saids",
   "SSRI": "S S R I",
   "SNRI": "S N R I",
   "ACE": "ace",
   "ARB": "A R B",
-  // Treatment types
-  "chiropractic": "ky-roh-PRAK-tik",
-  "acupuncture": "AK-yoo-punk-cher",
-  "psychotherapy": "sy-koh-THER-uh-pee",
-  "telemed": "TEL-eh-med",
-  "telehealth": "TEL-eh-health"
+  "ROM": "range of motion",
+  "ADL": "A D L",
+  "PRN": "as needed",
+  "BID": "twice daily",
+  "TID": "three times daily",
+  "QID": "four times daily",
+  "IM": "intramuscular",
+  "IV": "intravenous",
+  "PO": "by mouth",
+  "SQ": "subcutaneous",
 };
 
 class TTSService {
@@ -93,18 +151,26 @@ class TTSService {
   }
 
   /**
-   * Apply medical pronunciations using SSML <sub> tags
-   * This tells TTS to speak the alias instead of the written text
+   * Apply medical pronunciations using SSML tags:
+   *  - <phoneme alphabet="ipa" ph="..."> for medical terms (exact pronunciation)
+   *  - <sub alias="..."> for abbreviations (read as expanded text)
    */
   applyMedicalPronunciations(text) {
     let processedText = text;
 
-    // Replace medical terms with SSML <sub> tags for proper pronunciation
-    // <sub alias="spoken form">written form</sub>
-    for (const [term, pronunciation] of Object.entries(MEDICAL_PRONUNCIATIONS)) {
+    // Apply IPA phonemes for medical terms
+    for (const [term, ipa] of Object.entries(MEDICAL_IPA)) {
       const regex = new RegExp(`\\b${term}\\b`, 'gi');
       processedText = processedText.replace(regex, (match) => {
-        return `<sub alias="${pronunciation}">${match}</sub>`;
+        return `<phoneme alphabet="ipa" ph="${ipa}">${match}</phoneme>`;
+      });
+    }
+
+    // Apply substitutions for abbreviations
+    for (const [abbr, expanded] of Object.entries(ABBREVIATION_SUBS)) {
+      const regex = new RegExp(`\\b${abbr}\\b`, 'g');
+      processedText = processedText.replace(regex, (match) => {
+        return `<sub alias="${expanded}">${match}</sub>`;
       });
     }
 

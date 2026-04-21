@@ -203,14 +203,11 @@ const ROLES = {
 };
 
 // Provider role mapping (in-memory, will come from DB later)
-// UserNum -> Role ID
+// UserNum (UUID string) -> Role ID
+// Keys must be UUID strings — these are the provider UserNums from Eagle
 const PROVIDER_ROLES = new Map([
-  // Example mappings - update with real provider UserNums
-  [3055, 'LVN'],
-  [3056, 'PHYSICIAN'],
-  [3057, 'CHIROPRACTOR'],
-  [3103, 'LVN'],
-  [2179, 'LVN']
+  // TODO: populate with real provider UUID → role mappings from DB
+  // Example: ['a1b2c3d4-e5f6-...', 'PHYSICIAN']
 ]);
 
 // Default role for unknown providers
